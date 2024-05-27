@@ -1,0 +1,26 @@
+{
+  "name": "theme-fusion/fusion-library",
+  "type": "wordpress-plugin",
+  "description": "Lubrary for Avada theme & Avada Builder plugins",
+  "homepage": "https://avada.com",
+  "license": "GPLv2 or later",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "wptrt/wpthemereview": "*",
+    "wp-coding-standards/wpcs": "*",
+    "phpstan/phpstan": "^1.4",
+    "szepeviktor/phpstan-wordpress": "^1.0",
+    "php-stubs/woocommerce-stubs": "^6.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

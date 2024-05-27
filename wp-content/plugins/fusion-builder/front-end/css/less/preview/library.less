@@ -1,0 +1,89 @@
+.fusion-builder-live-preview {
+	&.fusion-element-post-type-sections {
+		.fusion-builder-container,
+		.fusion-builder-container:hover {
+			.fusion-builder-module-controls-container-wrapper {
+				.fusion-builder-module-controls-container {
+					.fusion-builder-container-add,
+					.fusion-builder-container-save,
+					.fusion-builder-container-clone,
+					.fusion-builder-container-drag,
+					.fusion-builder-container-remove {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	&.fusion-element-post-type-elements {
+		.fusion-builder-column,
+		.fusion-builder-column:hover {
+			.fusion-builder-module-controls-type-column {
+				display: none;
+			}
+		}
+
+		.fusion-builder-container,
+		.fusion-builder-container:hover {
+			.fusion-builder-module-controls-container-wrapper {
+				display: none;
+			}
+		}
+
+		.fusion-builder-live-element,
+		.fusion-builder-live-element:hover {
+			.fusion-builder-module-controls-container {
+				.fusion-builder-module-controls {
+					.fusion-builder-add-element,
+					.fusion-builder-clone,
+					.fusion-builder-element-save,
+					.fusion-builder-element-drag,
+					.fusion-builder-remove {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	&.fusion-element-post-type-post_cards,
+	&.fusion-element-post-type-columns {
+		.fusion-builder-column:not(.fusion-builder-column-inner),
+		.fusion-builder-column:not(.fusion-builder-column-inner):hover {
+			& > .fusion-builder-module-controls-type-column {
+				.fusion-builder-insert-column,
+				.fusion-builder-column-save,
+				.fusion-builder-column-clone,
+				.fusion-builder-column-drag,
+				.fusion-builder-column-remove {
+					display: none;
+				}
+			}
+		}
+
+		.fusion-builder-container,
+		.fusion-builder-container:hover {
+			.fusion-builder-module-controls-container-wrapper {
+				display: none;
+			}
+		}
+	}
+
+	// Post card column options for hiding.
+	&.fusion-element-post-type-post_cards {
+		.fusion-builder-column-outer > .fusion-builder-module-controls-container > .fusion-builder-controls > .fusion-builder-module-controls-inner > .fusion-builder-column-size {
+			display: none !important;
+		}
+
+		.fusion-builder-live-editor {
+			.fusion-post-card-image {
+				text-align: center;
+			}
+		}
+		#fusion_builder_container {
+			margin: 0 auto;
+			width: 50%;
+		}
+	}
+}

@@ -1,0 +1,116 @@
+.fusion-body {
+	.fusion-comments-tb {
+		--awb-margin-top: 0;
+		--awb-margin-right: 0;
+		--awb-margin-bottom: 0;
+		--awb-margin-left: 0;
+		--awb-text-color: var(--body_typography-color);
+		--awb-border-size: var(--separator_border_size);
+		--awb-border-color: var(--sep_color);
+		--awb-padding: 0;
+		--awb-link-color: var(--link_color);
+		--awb-link-hover-color: var(--link_hover_color);
+		--awb-meta-color: var(--body_typography-color);
+		--awb-heading-color: var(--post_titles_extras_typography-color);
+
+		color: var(--awb-text-color);
+		margin: var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);
+
+		.commentlist {
+
+			.the-comment {
+				border-bottom-width: var(--awb-border-size);
+				border-color: var(--awb-border-color);
+			}
+
+			.children {
+				padding-left: var(--awb-padding);
+			}
+		}
+
+		.fusion-title {
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				color: var(--awb-heading-color) !important;
+			}
+		}
+
+		&.avatar-circle {
+			.the-comment {
+				.avatar {
+					border-radius: 50%;
+				}
+			}
+		}
+
+		&.avatar-square {
+			.the-comment {
+				.avatar {
+					border-radius: 0;
+				}
+			}
+		}
+
+		&.avatar-hide {
+			.commentlist {
+				.the-comment {
+					.avatar {
+						display: none;
+					}
+					.comment-text {
+						margin-left: 0;
+					}
+				}
+			}
+		}
+
+		a {
+			color: var(--awb-link-color);
+
+			&:hover,
+			&.hover {
+				color: var(--awb-link-hover-color);
+			}
+		}
+
+		.comment-author {
+			&.meta {
+				color: var(--awb-meta-color) !important;
+				a {
+					color: var(--awb-link-color) !important;
+
+					&:hover {
+						color: var(--awb-link-hover-color) !important;
+					}
+				}
+			}
+		}
+
+		&.hide-headings {
+			.fusion-title {
+				display: none;
+			}
+		}
+
+		&.fusion-order-comment-form {
+			display: flex;
+			flex-direction: column;
+
+			.comments-container {
+				order: 2;
+				margin-top: 40px;
+			}
+
+			#respond {
+				order: 1;
+				margin-top: 55px;
+				clear: both;
+			}
+		}
+	}
+
+}

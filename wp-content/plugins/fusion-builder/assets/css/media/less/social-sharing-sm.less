@@ -1,0 +1,35 @@
+.fusion-sharing-box {
+	--awb-alignment-small: var(--awb-alignment);
+	--awb-stacked-align-small: var(--awb-stacked-align);
+
+	.sharingbox-shortcode-icon-wrapper {
+		justify-content: var(--awb-alignment-small);
+	}
+
+	&.layout-small-floated {
+		flex-direction: row;
+		.tagline {
+			margin-right: 0.5em;
+			margin-bottom: 0;
+		}
+
+		.sharingbox-shortcode-icon-wrapper {
+			align-items: center;
+			width: auto;
+		}
+
+	}
+
+	&.layout-small-stacked {
+		flex-direction: column;
+		align-items: var(--awb-stacked-align-small);
+		.tagline {
+			margin-bottom: revert;
+		}
+
+		.sharingbox-shortcode-icon-wrapper {
+			width: 100%;
+		}
+
+	}
+}

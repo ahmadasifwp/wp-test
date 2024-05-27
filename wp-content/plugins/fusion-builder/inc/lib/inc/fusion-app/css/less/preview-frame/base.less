@@ -1,0 +1,421 @@
+.fusion-builder-live {
+
+	#boxed-wrapper {
+		overflow: visible;
+	}
+
+	a,
+	input,
+	select {
+
+		&:focus {
+			outline: none !important;
+			box-shadow: none !important;
+		}
+	}
+
+	.fusion-column-wrapper:not(.fusion-column-has-shadow),
+	.fusion-builder-live-editor .fusion-fullwidth {
+		box-shadow: inset 0 0 0 2px rgba(60, 185, 240, 0) !important;
+	}
+
+	.fusion-column-wrapper:not(.fusion-column-has-shadow),
+	.fusion-fullwidth:not(.fusion-sticky-container) {
+		transition: box-shadow 0.2s ease, filter 0.3s ease;
+	}
+
+	.fusion-fullwidth.fusion-builder-row-live-1.fusion-sticky-transition .fusion_builder_row > .fusion-builder-row {
+		transition: min-height 0.3s ease;
+	}
+
+	.fusion-layout-column.fusion-column-liftup-border {
+
+		.fusion-column-wrapper:not(.fusion-column-has-shadow) {
+			box-shadow: inset 0 0 0 2px rgba(60, 185, 240, 0) !important;
+			transition: border-color 0s linear 0.35s, border-radius 0s linear 0.15s, box-shadow 0.2s ease;
+		}
+
+		&:hover {
+
+			.fusion-column-wrapper:not(.fusion-column-has-shadow) {
+				transition: border-color 0s, border-radius 0s, box-shadow 0.2s ease;
+			}
+		}
+	}
+
+	.fusion-fullwidth {
+
+		.fusion-builder-container-content {
+
+			.fusion-builder-row-container {
+
+				&:after {
+					display: initial;
+				}
+			}
+		}
+	}
+
+	/* TinyMCE */
+	.mce-floatpanel,
+	.mce-popover,
+	.mce-tooltip {
+		z-index: 999999 !important;
+	}
+
+	.fusion-builder-loader {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -2em 0 0 -2em;
+		color: transparent;
+		font-size: 10px;
+		border-top: 0.5em solid rgba(0, 0, 0, 0.2);
+		border-right: 0.5em solid rgba(0, 0, 0, 0.2);
+		border-bottom: 0.5em solid #333;
+		border-left: 0.5em solid rgba(0, 0, 0, 0.2);
+		animation: fusion-rotate 0.8s infinite linear;
+		width: 4em;
+		height: 4em;
+		border-radius: 50%;
+		background-clip: padding-box;
+
+		&:after {
+			width: 4em;
+			height: 4em;
+			border-radius: 50%;
+			background-clip: padding-box;
+		}
+	}
+
+	&.do-animate {
+
+		.fusion-animated {
+			visibility: visible;
+		}
+	}
+
+	// Flex container adjustments.
+	.width-100 {
+
+		.post-content > .fusion-builder-live-editor > #fusion_builder_container > .fusion-builder-flex-container {
+			margin-left: var(--hundredp_padding-hundred_percent_negative_margin);
+			margin-right: var(--hundredp_padding-hundred_percent_negative_margin);
+
+			.fusion-fullwidth,
+			.nonhundred-percent-fullwidth {
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+	}
+}
+
+.fusion-builder-column-inner {
+	position: relative;
+}
+
+@media only screen and (min-width: 800px) {
+
+	.fusion-builder-live-editor .fusion-tabs .nav-tabs.nav-justified {
+		display: flex !important;
+	}
+
+	.fusion-builder-live-editor .fusion-tabs .nav-tabs.nav-justified > li {
+		flex: 1 1 0;
+	}
+}
+
+.fusion-builder-blank-page {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	border: 2px dashed #e6e6e6;
+	margin-bottom: 2em;
+
+	&.fusion-post-awb_off_canvas {
+		margin-bottom: 0;
+		border: none;
+
+		.fusion-builder-blank-page-content {
+			margin: 2em 0;
+		}
+	}
+
+	.fusion-builder-blank-page-content {
+		flex: 1 1 100%;
+		margin: 5em 0;
+		padding: 25px;
+
+		h1.title {
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+			font-size: 32px;
+			font-weight: lighter;
+			color: #2a3035;
+			margin-top: 0;
+			line-height: 40px;
+		}
+
+		h2.subtitle {
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif !important;
+			font-size: 16px !important;
+			font-weight: 400 !important;
+			margin-top: 0;
+			margin-bottom: 2em;
+			color: #898d95;
+		}
+
+		.fusion-builder-submit-button {
+			background: #fff;
+			padding: 13px 20px;
+			border: 1px solid #e6e6e6;
+			// width: 170px;
+			display: inline-block;
+			font-size: 14px;
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+			font-weight: 600;
+			margin: 5px 10px;
+			border-radius: 3px;
+			color: #2a3035;
+			letter-spacing: normal;
+
+			span {
+				margin-right: 5px;
+				padding: 5px;
+				background: #198ed9;
+				border-radius: 50%;
+				color: #fff;
+				font-size: 13px;
+				width: 23px;
+				height: 23px;
+				display: inline-block;
+			}
+
+			&.fusion-builder-new-section-add {
+				background: #198fd9;
+				color: #fff;
+				box-shadow: none;
+				border: none;
+
+				span {
+					font-size: 14px;
+					background: transparent;
+				}
+
+				&:hover {
+					background: #1081c7;
+				}
+			}
+
+			&:not(.fusion-builder-new-section-add):hover {
+				color: #198fd9;
+			}
+		}
+	}
+
+	.fusion-builder-blank-page-info {
+		width: 50%;
+		float: left;
+		border-top: 2px dashed #e6e6e6;
+		box-sizing: border-box;
+		padding: 3em 25px;
+
+		h3 {
+			margin: 2em 0 !important;
+			font-size: 18px;
+			font-weight: 600;
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+			margin-bottom: 0 !important;
+			margin-top: 15px !important;
+			line-height: 1.8em;
+		}
+
+		p {
+			font-size: 16px;
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+			color: #898d95;
+			margin-bottom: 5px;
+		}
+
+		.dashicons-before,
+		.fusiona {
+			display: inline-block;
+			font-size: 18px;
+			vertical-align: middle;
+			margin-right: 10px;
+			width: 20px;
+
+			&:before {
+				display: inline;
+				vertical-align: middle;
+				font-size: 18px;
+				width: auto;
+			}
+		}
+
+		&:last-child {
+			border-left: 2px dashed #e6e6e6;
+		}
+
+		.info-icon {
+			width: 54px;
+			height: 54px;
+			line-height: 54px;
+			background: #b1b7bc;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 auto;
+			border-radius: 50%;
+			box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.6);
+			border: 2px solid #fff;
+
+			&:hover {
+				background: #979ea3;
+			}
+		}
+
+		.fusion-builder-submit-button {
+			font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+			font-size: 14px;
+			color: #198fd9;
+			transition: color 0.2s ease;
+
+			span {
+				padding-left: 10px;
+				transition: padding 0.2s ease;
+			}
+
+			&:hover {
+				color: #1081c7;
+
+				span {
+					padding-left: 15px;
+				}
+			}
+		}
+	}
+
+	&.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) {
+		border-color: rgba(255, 255, 255, 0.3);
+
+		h1.title {
+			color: #fff;
+		}
+
+		.fusion-builder-blank-page-info {
+			border-color: rgba(255, 255, 255, 0.3);
+
+			h3 {
+				color: #fff;
+			}
+
+			.info-icon {
+				background: transparent;
+			}
+		}
+	}
+}
+
+#side-header .fusion-builder-live-editor {
+	position: relative;
+
+	.fusion-builder-blank-page-info {
+		display: none;
+	}
+}
+
+/* Stop Animation Changing z-index when disabled */
+.dont-animate {
+
+	.fusion-animated {
+		z-index: initial;
+	}
+}
+
+/* Empty Container Placeholder */
+.fusion-builder-empty-column {
+	height: 16px;
+}
+
+.fusion-builder-column-content .fusion-builder-empty-column,
+.fusion-builder-row-container .fusion-builder-empty-container {
+	display: none;
+}
+
+.fusion-builder-empty-container .fusion-builder-empty-container-label {
+	display: none;
+}
+
+.fusion-builder-column-content .fusion-builder-empty-column:last-child,
+.fusion-builder-row-container .fusion-builder-empty-container:last-child {
+	display: block;
+	padding: 50px 0;
+
+	> .fusion-builder-module-controls-container {
+		z-index: 9999999;
+		display: block;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		.fusion-builder-element-edited & {
+			display: none;
+		}
+
+		a {
+			display: block;
+			width: 33px;
+			opacity: 1;
+			color: #fff;
+
+			.fusion-dialog-ui-active & {
+				display: none;
+			}
+		}
+	}
+}
+
+.fusion-builder-container:hover .fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container,
+.fusion-builder-column:hover .fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container {
+	display: block;
+}
+
+.fusion-builder-clear-layout {
+	cursor: pointer;
+}
+
+.fusion-builder-live:not(.fusion-builder-preview-mode) {
+
+	.fusion-builder-column-content {
+		pointer-events: auto;
+	}
+}
+
+/* Option Styling - TODO: Separate these into individual less files for use on back-end and front-end */
+.select2-dropdown {
+	z-index: 999999 !important;
+}
+
+@-webkit-keyframes fusion-rotate {
+
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes fusion-rotate {
+
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

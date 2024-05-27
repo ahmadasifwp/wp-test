@@ -1,0 +1,125 @@
+.fusion-checklist,
+ul.fusion-checklist {
+	--awb-size: var(--checklist_item_size, inherit);
+	--awb-line-height: inherit;
+	--awb-margin-top: 10px;
+	--awb-margin-right: 0;
+	--awb-margin-bottom: 0;
+	--awb-margin-left: 0;
+	--awb-divider-color: var(--checklist_divider_color);
+
+	--awb-item-padding-top: var(--checklist_item_padding-top, 0.35em);
+	--awb-item-padding-right: var(--checklist_item_padding-right, 0);
+	--awb-item-padding-bottom: var(--checklist_item_padding-bottom, 0.35em);
+	--awb-item-padding-left: var(--checklist_item_padding-left, 0);
+
+	--awb-odd-row-bgcolor: var(--checklist_odd_row_bgcolor, transparent);
+	--awb-even-row-bgcolor: var(--checklist_even_row_bgcolor, transparent);
+
+	--awb-textcolor: var(--checklist_text_color, inherit);
+
+	--awb-icon-width: auto;
+	--awb-icon-height: auto;
+	--awb-icon-margin: 0;
+	--awb-content-margin: 0;
+
+	--awb-circlecolor: var(--checklist_circle_color);
+	--awb-circle-yes-font-size: inherit;
+	--awb-iconcolor: var(--checklist_icons_color);
+
+	list-style-type: none;
+	padding: 0;
+	margin: var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);
+	font-size: var(--awb-size);
+	line-height: var(--awb-line-height);
+
+	&.fusion-checklist-default {
+		.fusion-li-item {
+			&:first-child {
+				--awb-item-padding-top: 0;
+			}
+		}
+	}
+
+	&.fusion-404-checklist > li,
+	.fusion-li-item {
+		padding-top: var(--awb-item-padding-top);
+		padding-right: var(--awb-item-padding-right);
+		padding-bottom: var(--awb-item-padding-bottom);
+		padding-left: var(--awb-item-padding-left);
+		margin-left: 0;
+
+		&:nth-child(odd) {
+			background-color: var(--awb-odd-row-bgcolor);
+		}
+
+		&:nth-child(even) {
+			background-color: var(--awb-even-row-bgcolor);
+		}
+
+		p:first-of-type {
+			margin-top: 0;
+		}
+
+		p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.fusion-li-item-content {
+		color: var(--awb-textcolor);
+		margin-inline-start: var(--awb-content-margin);
+	}
+
+	&.fusion-checklist-divider {
+
+		&.fusion-404-checklist > li,
+		.fusion-li-item {
+			padding-top: calc(var(--checklist_item_padding-top, 0.35em) * 2);
+			padding-bottom: calc(var(--checklist_item_padding-bottom, 0.35em) * 2);
+			border-bottom: 1px solid var(--awb-divider-color);
+		}
+	}
+
+	&.type-numbered {
+		li,
+		.fusion-builder-child-element-content {
+			display: flex;
+			align-items: center;
+
+			.fusion-li-item-content {
+				margin: 0;
+			}
+		}
+		.icon-wrapper {
+			width: calc(var(--awb-icon-width) + 10px);
+			height: calc(var(--awb-icon-width) + 10px);
+			color: var(--awb-iconcolor);
+		}
+	}
+
+	.icon-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		float: left;
+		width: var(--awb-icon-width);
+		height: var(--awb-icon-height);
+		margin-inline-end: var(--awb-icon-margin);
+	}
+
+	.fusion-li-icon {
+		display: inline-block;
+		color: var(--awb-iconcolor);
+	}
+
+	.circle-yes {
+		border-radius: 50%;
+		background-clip: padding-box;
+		background-color: var(--awb-circlecolor);
+		font-size: var(--awb-circle-yes-font-size);
+		color: #fff;
+		text-align: center;
+	}
+}

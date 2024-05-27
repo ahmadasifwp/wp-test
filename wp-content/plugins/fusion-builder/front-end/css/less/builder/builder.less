@@ -1,0 +1,109 @@
+// Dialogs
+@import "dialogs/dialog-element-library.less";
+@import "dialogs/dialog-column-library.less";
+@import "dialogs/studio-import-modal.less";
+@import "bulk-upload.less";
+@import "chart.less";
+@import "dynamic-data.less";
+@import "widget-form.less";
+@import "awb-builder-navigator.less";
+
+#fusion-visibility-large {
+	width: 60px;
+	text-align: center;
+	padding: 8px 5px;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: 400;
+	color: var(--gray-dark);
+	background: var(--white);
+	outline: 0;
+	box-shadow: inset 0 0 1px rgba(102, 113, 123, 0.16);
+	cursor: not-allowed;
+}
+
+li[data-direction="row"] + li .fusion-form-radio-button-set a > span {
+	transform: rotate(-90deg);
+}
+// Po flex alignment icons.
+li[data-direction="row"] + li.radio-buttonset a > span {
+	transform: rotate(-90deg);
+}
+
+
+.fusion-mapping > span {
+	display: none;
+	&:first-child:last-child {
+		display: block;
+	}
+}
+.fusion-mapping > div {
+	margin: 10px 0 20px 0;
+
+	&.hidden {
+		display: none;
+	}
+
+	.fusion-select-wrapper {
+		position: relative;
+	}
+	.fusion-select-wrapper:hover .fusiona-arrow-down {
+		color: var(--gray-dark);
+	}
+	.fusion-select-wrapper .fusiona-arrow-down {
+		display: block;
+		position: absolute;
+		top: 50%;
+		right: 12px;
+		transform: translateY(-50%);
+		pointer-events: none;
+		font-size: 14px;
+		line-height: 1;
+		color: var(--gray-light);
+	}
+	label {
+		margin-bottom: 3px;
+		display: block;
+		text-transform: capitalize;
+	}
+	select {
+		border: 1px solid var(--border-color);
+		box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+		cursor: pointer;
+		width: 100%;
+		max-width: 100%;
+		padding-left: 12px;
+		padding-right: 12px;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 40px;
+		color: var(--gray-dark);
+		border-radius: 4px;
+		min-height: 40px;
+		background: var(--white);
+		position: relative;
+		transition: all 0.1s ease;
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		outline: 0;
+	}
+}
+.post-card-editing {
+	[data-element="fusion_builder_column"] {
+		[data-option-id="align_self"],
+		[data-option-id="hide_on_mobile"],
+		[data-option-type="column_width"],
+		[data-option-id="dimension_spacing"],
+		[data-option-id="dimension_spacing_small"],
+		[data-option-id="dimension_spacing_medium"],
+		[data-option-id="order_small"],
+		[data-option-id="order_medium"],
+		[data-option-id="dimension_margin"],
+		[data-option-id="dimension_margin_small"],
+		[data-option-id="dimension_margin_medium"],
+		[data-option-id="render_logics"] {
+			display: none !important;
+		}
+	}
+}

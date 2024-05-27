@@ -1,0 +1,23 @@
+.fade {
+	opacity: 0;
+	transition: opacity 0.3s linear;
+
+	&.in {
+		opacity: 1;
+	}
+}
+
+.collapse {
+	display: none;
+
+	&.in {
+		display: block;
+	}
+}
+
+.collapsing {
+	position: relative;
+	height: 0;
+	overflow: hidden;
+	transition: height 0.35s ease;
+}

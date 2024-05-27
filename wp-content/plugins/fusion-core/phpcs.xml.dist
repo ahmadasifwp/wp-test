@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+	<!-- See https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml -->
+	<!-- See https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards/blob/develop/WordPress-Core/ruleset.xml -->
+
+	<!-- Check for cross-version support for PHP 5.6 and higher. -->
+	<rule ref="PHPCompatibilityWP"/>
+    <config name="testVersion" value="5.6-"/>
+
+	<!-- Set a description for this ruleset. -->
+	<description>A custom set of code standard rules to check for WordPress themes and plugins.</description>
+
+	<!-- Only check PHP files. -->
+	<arg name="extensions" value="php"/>
+
+	<!-- Show progress, show the error codes for each message (source). -->
+	<arg value="spv"/>
+
+	<!-- Strip the filepaths down to the relevant bit. -->
+	<arg name="basepath" value="."/>
+
+	<file>.</file>
+
+	<exclude-pattern>node_modules</exclude-pattern>
+	<exclude-pattern>vendor</exclude-pattern>
+	<exclude-pattern>tests</exclude-pattern>
+	<exclude-pattern>includes/recaptcha/src</exclude-pattern>
+
+	<!-- Include the WordPress ruleset, with exclusions. -->
+	<rule ref="WordPress">
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
+
+		<!--
+			Exclude the WordPress rule that checks if WordPress is spelled correctly.
+			This rule can transform "wordpress" string into "WordPress" inside an if statement.
+		-->
+		<exclude name="WordPress.WP.CapitalPDangit" />
+	</rule>
+
+	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
+		<exclude-pattern>fusion-core.php</exclude-pattern>
+		<exclude-pattern>shortcodes/</exclude-pattern>
+	</rule>
+	<rule ref="WordPress.Files.FileName.NotHyphenatedLowercase">
+		<exclude-pattern>templates/single-avada_portfolio.php</exclude-pattern>
+		<exclude-pattern>templates/archive-avada_portfolio.php</exclude-pattern>
+		<exclude-pattern>templates/featured-image-avada_portfolio.php</exclude-pattern>
+	</rule>
+	<rule ref="WordPress.PHP.DontExtract.extract_extract">
+		<exclude-pattern>shortcodes/</exclude-pattern>
+		<exclude-pattern>widget/</exclude-pattern>
+	</rule>
+	<rule ref="Internal.NoCodeFound">
+		<exclude-pattern>shortcodes/previews/front-end/</exclude-pattern>
+	</rule>
+
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found">
+		<exclude-pattern>fusion-core.php</exclude-pattern>
+		<exclude-pattern>includes/bootstrap-compat.php</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.PHP.DontExtract.extract_extract">
+		<exclude-pattern>includes/widget/class-fusion-widget-*.php</exclude-pattern>
+	</rule>
+</ruleset>

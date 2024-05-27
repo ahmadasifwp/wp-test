@@ -1,0 +1,141 @@
+.fusion-woo-checkout-shipping-tb {
+	--awb-margin-top: 0;
+	--awb-margin-right: 0;
+	--awb-margin-bottom: 0;
+	--awb-margin-left: 0;
+	--awb-field-bg-color: var(--form_bg_color);
+	--awb-field-text-color: var(--form_text_color);
+	--awb-placeholder-color: var(--form_text_color);
+	--awb-field-border-color: var(--form_border_color);
+	--awb-hover-color: var(--form_border_color);
+	--awb-field-border-focus-color: var(--form_border_color);
+
+	margin: var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);
+
+
+	input,
+	select,
+	textarea {
+		background: var(--awb-field-bg-color);
+		color: var(--awb-field-text-color);
+		border-color: var(--awb-field-border-color);
+
+		&:hover {
+			border-color: var(--awb-hover-color);
+		}
+
+		&:focus {
+			border-color: var(--awb-field-border-focus-color);
+		}
+	}
+
+	input::placeholder {
+		color: var(--awb-placeholder-color);
+	}
+
+	textarea::placeholder {
+		color: var(--awb-placeholder-color);
+	}
+
+	.select2-container--default {
+		.select2-selection--single {
+			background: var(--awb-field-bg-color);
+			border-color: var(--awb-field-border-color);
+
+			.select2-selection__arrow {
+				b {
+					border-top-color: var(--awb-field-border-color);
+				}
+			}
+
+			.select2-selection__rendered {
+				color: var(--awb-field-text-color);
+
+				.select2-selection__placeholder {
+					color: var(--awb-placeholder-color);
+				}
+			}
+		}
+
+		&:hover {
+			.select2-selection--single {
+				border-color: var(--awb-hover-color);
+
+				.select2-selection__arrow {
+					border-color: var(--awb-hover-color);
+					b {
+						border-top-color: var(--awb-hover-color);
+					}
+				}
+			}
+		}
+
+		&.select2-container--open {
+			.select2-selection--single {
+				border-color: var(--awb-field-border-focus-color);
+
+				.select2-selection__arrow {
+					border-color: var(--awb-field-border-focus-color);
+					b {
+						border-bottom-color: var(--awb-field-border-focus-color);
+					}
+				}
+			}
+		}
+	}
+
+	.select2-container {
+		.select2-selection {
+			.select2-selection__arrow {
+				border-color: var(--awb-field-border-color);
+			}
+		}
+	}
+
+	.fusion-body & {
+
+		.avada-select-parent select,
+		.select-arrow {
+			background: var(--awb-field-bg-color) !important;
+			color: var(--awb-field-text-color) !important;
+			border-color: var(--awb-field-border-color) !important;
+		}
+
+		.avada-select-parent {
+
+			&:hover {
+
+				select {
+					border-color: var(--awb-hover-color) !important;
+				}
+
+				.select-arrow {
+					color: var(--awb-hover-color) !important;
+					border-color: var(--awb-hover-color) !important;
+				}
+			}
+		}
+	}
+
+	&.awb-live {
+		input,
+		select,
+		textarea {
+			background: var(--awb-field-bg-color) !important;
+			color: var(--awb-field-text-color) !important;
+			border-color: var(--awb-field-border-color) !important;
+
+			&:hover {
+				border-color: var(--awb-hover-color) !important;
+			}
+
+			&:focus {
+				border-color: var(--awb-field-border-focus-color) !important;
+			}
+		}
+	}
+
+	.woocommerce-additional-fields {
+		margin-top: 1em;
+	}
+}

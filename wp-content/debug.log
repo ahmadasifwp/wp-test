@@ -1,0 +1,876 @@
+[02-May-2024 11:40:44 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 47
+[02-May-2024 11:55:41 UTC] PHP Fatal error:  Cannot redeclare append_custom_meta_to_astra_single_post_meta() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php:16) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 25
+[02-May-2024 12:27:16 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 16
+[02-May-2024 12:28:18 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 16
+[02-May-2024 12:28:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 16
+[02-May-2024 12:28:47 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 16
+[02-May-2024 12:48:20 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 17
+[02-May-2024 12:55:27 UTC] PHP Parse error:  syntax error, unexpected 'width' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 19
+[02-May-2024 17:45:49 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[02-May-2024 17:45:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[02-May-2024 17:53:40 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 17:53:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 17:53:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 17:53:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 17:54:35 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 18:00:17 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[02-May-2024 18:38:09 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar_url(), 0 passed in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 57 and at least 1 expected in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\link-template.php:4298
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php(57): get_avatar_url()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#4 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\link-template.php on line 4298
+[02-May-2024 18:38:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_avatar_url(), 0 passed in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 40 and at least 1 expected in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\link-template.php:4298
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php(40): get_avatar_url()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#4 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\link-template.php on line 4298
+[06-May-2024 13:15:26 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 449
+[08-May-2024 09:31:08 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[08-May-2024 09:31:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[08-May-2024 09:31:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[08-May-2024 09:31:34 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 449
+[08-May-2024 09:31:34 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 730
+[08-May-2024 09:32:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[10-May-2024 19:18:58 UTC] PHP Notice:  Undefined variable: conn in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 64
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 64
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 65
+[10-May-2024 19:18:58 UTC] PHP Notice:  Undefined variable: conn in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 70
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 70
+[10-May-2024 19:18:58 UTC] PHP Notice:  Undefined variable: conn in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 80
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 80
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 81
+[10-May-2024 19:18:58 UTC] PHP Notice:  Undefined variable: conn in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 86
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 86
+[10-May-2024 19:18:58 UTC] PHP Notice:  Undefined variable: conn in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 96
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 96
+[10-May-2024 19:18:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 97
+[10-May-2024 19:18:58 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 98
+[11-May-2024 08:17:41 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[11-May-2024 10:59:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function codexin_get_post_views() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php:23
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 23
+[12-May-2024 17:15:39 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 17:53:29 UTC] PHP Notice:  Undefined variable: featured_image in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 34
+[12-May-2024 17:53:50 UTC] PHP Notice:  Undefined variable: featured_image in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 34
+[12-May-2024 18:02:19 UTC] PHP Notice:  Undefined variable: featured_image in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 34
+[12-May-2024 18:04:08 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 18:04:55 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 18:04:56 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 18:04:56 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 18:04:56 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[12-May-2024 18:04:57 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[13-May-2024 12:01:02 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:01:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[13-May-2024 12:01:03 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[13-May-2024 12:01:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:01:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:01:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:01:06 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:05 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:35 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:35 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:36 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:37 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:38 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:43 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:43 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:46 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:52 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:02:52 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:03:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:03:04 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:03:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 12:03:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 112
+[13-May-2024 13:07:07 UTC] PHP Notice:  Function map_meta_cap was called incorrectly. The post type wporg_product is not registered, so it may not be reliable to check the capability edit_post against a post of that type. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 4.4.0.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[13-May-2024 13:19:24 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:24 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:26 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:26 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:28 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:35 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:35 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:35 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:126) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 150
+[13-May-2024 13:19:51 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 13:19:51 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 13:19:52 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 13:19:52 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 13:19:58 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 13:20:03 UTC] PHP Fatal error:  Cannot redeclare wporg_register_taxonomy_department() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 136
+[13-May-2024 18:49:47 UTC] PHP Parse error:  syntax error, unexpected '...' (T_ELLIPSIS) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php on line 45
+[14-May-2024 05:02:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_disable_block_editor_for_navigation_post_type' not found or invalid function name in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[14-May-2024 05:02:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_disable_block_editor_for_navigation_post_type' not found or invalid function name in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[14-May-2024 05:02:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\post.php:191
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\post.php on line 191
+[14-May-2024 05:02:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_disable_block_editor_for_navigation_post_type' not found or invalid function name in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[14-May-2024 05:02:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function '_disable_block_editor_for_navigation_post_type' not found or invalid function name in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[14-May-2024 05:02:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\post.php:191
+Stack trace:
+#0 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\post.php on line 191
+[14-May-2024 05:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_edit_posts_query() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\class-wp-posts-list-table.php:165
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\edit.php(235): WP_Posts_List_Table->prepare_items()
+#1 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 165
+[14-May-2024 05:03:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function postbox_classes() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\template.php:1373
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\dashboard.php(271): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\index.php(204): wp_dashboard()
+#2 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\template.php on line 1373
+[14-May-2024 05:03:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function postbox_classes() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\template.php:1373
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\dashboard.php(271): do_meta_boxes(Object(WP_Screen), 'normal', '')
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\index.php(204): wp_dashboard()
+#2 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\template.php on line 1373
+[14-May-2024 05:03:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_edit_posts_query() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\class-wp-posts-list-table.php:165
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\edit.php(235): WP_Posts_List_Table->prepare_items()
+#1 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\class-wp-posts-list-table.php on line 165
+[14-May-2024 05:58:07 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php on line 54
+[14-May-2024 06:15:31 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 449
+[14-May-2024 09:59:40 UTC] PHP Deprecated:  File Theme without header.php is deprecated since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[14-May-2024 09:59:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_page_layout() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php:22
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php on line 22
+[14-May-2024 09:59:43 UTC] PHP Deprecated:  File Theme without header.php is deprecated since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[14-May-2024 09:59:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_page_layout() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php:22
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php on line 22
+[14-May-2024 09:59:46 UTC] PHP Deprecated:  File Theme without header.php is deprecated since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[14-May-2024 09:59:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_page_layout() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php:22
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php on line 22
+[14-May-2024 10:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:00:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:01:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:01:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:01:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:01:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:02:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:02:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:02:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:17:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 10:52:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php on line 22
+[14-May-2024 11:37:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sit_url() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php:22
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php on line 22
+[14-May-2024 13:09:27 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php on line 45
+[14-May-2024 17:18:47 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[14-May-2024 17:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_foter() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php:66
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 66
+[14-May-2024 20:31:28 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[14-May-2024 20:31:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\index.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:31:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(20): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:32:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\single.php(14): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[14-May-2024 20:32:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function astra_html_before() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php:18
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(810): require_once()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template.php(745): load_template('C:\\Users\\Tekhqs...', true, Array)
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\single.php(14): get_header()
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#6 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#7 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\header.php on line 18
+[15-May-2024 10:43:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\template-contact.php on line 6
+[15-May-2024 10:54:31 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\template-contact.php on line 9
+[15-May-2024 13:17:00 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function page_header_title_disable(), 0 passed in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php on line 34 and exactly 1 expected in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:190
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(34): page_header_title_disable()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#4 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 190
+[15-May-2024 13:19:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function page_header_title_disable(), 0 passed in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php on line 34 and exactly 1 expected in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php:190
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra\page.php(34): page_header_title_disable()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#4 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 190
+[15-May-2024 16:14:15 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[16-May-2024 10:22:32 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:25:20 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:26:11 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:26:13 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:28:26 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:28:27 UTC] PHP Fatal error:  Cannot redeclare register_widget() (previously declared in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\widgets.php:112) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\widgets.php on line 112
+[16-May-2024 10:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dynmic_sidebar() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php:55
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 55
+[16-May-2024 11:33:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[16-May-2024 11:34:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[16-May-2024 11:34:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[16-May-2024 11:34:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, no array or string given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php on line 324
+[16-May-2024 11:53:24 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 66
+[16-May-2024 12:16:32 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 36
+[16-May-2024 12:34:59 UTC] PHP Parse error:  syntax error, unexpected 'printf' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 27
+[16-May-2024 12:35:13 UTC] PHP Parse error:  syntax error, unexpected 'printf' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 27
+[16-May-2024 12:35:13 UTC] PHP Parse error:  syntax error, unexpected 'printf' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 27
+[16-May-2024 12:35:13 UTC] PHP Parse error:  syntax error, unexpected 'printf' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 27
+[16-May-2024 12:36:34 UTC] PHP Parse error:  syntax error, unexpected 'printf' (T_STRING) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 27
+[16-May-2024 12:38:00 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 26
+[16-May-2024 12:49:48 UTC] PHP Parse error:  syntax error, unexpected '<' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 26
+[17-May-2024 10:46:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[17-May-2024 10:55:30 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 207
+[17-May-2024 10:55:40 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 207
+[17-May-2024 11:03:40 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 205
+[17-May-2024 11:03:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[17-May-2024 11:03:40 UTC] PHP Notice:  Trying to access array offset on value of type bool in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[17-May-2024 11:03:40 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 205
+[17-May-2024 11:18:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 212
+[17-May-2024 11:18:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 212
+[20-May-2024 01:55:05 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[20-May-2024 09:12:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[20-May-2024 09:12:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 449
+[20-May-2024 09:12:56 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 730
+[20-May-2024 09:18:08 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[20-May-2024 09:18:10 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 24
+[20-May-2024 09:37:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[20-May-2024 09:39:13 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-admin\includes\translation-install.php on line 68
+[20-May-2024 11:50:08 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:08 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:50:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:21 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:46 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:49 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:49 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:50 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:50 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:50 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:50 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:50 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:52 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:52 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:53 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:55 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:55 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:56 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:57 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:57 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:58 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:51:59 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:03 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:03 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:03 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:03 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:03 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:05 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:06 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:08 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:08 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:09 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:10 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:10 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:10 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:11 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:52:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:12 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:30 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:30 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:31 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:33 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:33 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:34 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:37 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:39 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:39 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:40 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 11:53:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 132
+[20-May-2024 12:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function codexin_get_post_views() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php:19
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single.php on line 19
+[20-May-2024 17:39:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[20-May-2024 17:40:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[20-May-2024 17:40:32 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 07:04:12 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 07:05:16 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 07:25:06 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 07:29:55 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 07:30:39 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 07:31:26 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single-courses.php on line 3
+[21-May-2024 07:33:50 UTC] PHP Parse error:  syntax error, unexpected ':' in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single-courses.php on line 3
+[21-May-2024 07:36:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_title() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single-courses.php:4
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\single-courses.php on line 4
+[21-May-2024 09:25:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 09:25:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 09:25:27 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 10:08:11 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\archive-courses.php on line 1
+[21-May-2024 10:08:11 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:14:46 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\archive-courses.php on line 1
+[21-May-2024 10:14:46 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:18:37 UTC] PHP Warning:  get_headers() expects at least 1 parameter, 0 given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\archive-courses.php on line 1
+[21-May-2024 10:18:37 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\archive-courses.php:24
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Tekhqs...')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\index.php(17): require('C:\\Users\\Tekhqs...')
+#3 {main}
+  thrown in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\archive-courses.php on line 24
+[21-May-2024 10:43:15 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:43:15 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:43:30 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:43:30 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:00 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:15 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:46:15 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 126
+[21-May-2024 10:47:02 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:47:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:47:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:47:04 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:47:07 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:47:10 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 174
+[21-May-2024 10:48:41 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 170
+[21-May-2024 10:48:42 UTC] PHP Notice:  Undefined variable: labels in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 170
+[21-May-2024 10:56:22 UTC] PHP Notice:  Undefined variable: taxonomy in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 161
+[21-May-2024 10:56:22 UTC] PHP Notice:  Function register_taxonomy was called incorrectly. Taxonomy names must be between 1 and 32 characters in length. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:56:22 UTC] PHP Notice:  Undefined variable: taxonomy in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 161
+[21-May-2024 10:56:22 UTC] PHP Notice:  Function register_taxonomy was called incorrectly. Taxonomy names must be between 1 and 32 characters in length. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:56:22 UTC] PHP Notice:  Undefined variable: taxonomy in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 161
+[21-May-2024 10:56:22 UTC] PHP Notice:  Function register_taxonomy was called incorrectly. Taxonomy names must be between 1 and 32 characters in length. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:56:22 UTC] PHP Notice:  Undefined variable: taxonomy in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\astra-child\functions.php on line 161
+[21-May-2024 10:56:22 UTC] PHP Notice:  Function register_taxonomy was called incorrectly. Taxonomy names must be between 1 and 32 characters in length. Please see <a>Debugging in WordPress</a> for more information. (This message was added in version 4.2.0.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[21-May-2024 10:56:35 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:35 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:35 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:35 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:35 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 320
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 322
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 330
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 332
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 334
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 338
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 320
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 322
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 330
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 332
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 334
+[21-May-2024 10:56:35 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 338
+[21-May-2024 10:56:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php:334) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\pluggable.php on line 1435
+[21-May-2024 10:56:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php:334) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\pluggable.php on line 1438
+[21-May-2024 10:56:58 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:58 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:58 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:58 UTC] PHP Warning:  strlen() expects parameter 1 to be string, array given in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 527
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 337
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 742
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 513
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 514
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-rewrite.php on line 1845
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 535
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-taxonomy.php on line 547
+[21-May-2024 10:56:58 UTC] PHP Notice:  Array to string conversion in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\taxonomy.php on line 588
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 320
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 322
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 330
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 332
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 334
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 338
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 320
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 322
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 330
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 332
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 334
+[21-May-2024 10:56:58 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php on line 338
+[21-May-2024 10:56:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php:334) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\pluggable.php on line 1435
+[21-May-2024 10:56:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp.php:334) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\pluggable.php on line 1438
+[21-May-2024 13:07:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 13:07:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[21-May-2024 13:07:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[22-May-2024 09:08:34 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[22-May-2024 11:00:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhq in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[22-May-2024 11:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhq in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[22-May-2024 11:22:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Tekhq in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\themes\Avada\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[22-May-2024 11:24:47 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[22-May-2024 11:26:02 UTC] PHP Deprecated:  Function the_block_template_skip_link is deprecated since version 6.4.0! Use wp_enqueue_block_template_skip_link() instead. in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\functions.php on line 6078
+[22-May-2024 11:56:42 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[22-May-2024 12:36:48 UTC] PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\plugins\fusion-builder\inc\class-fusion-builder-admin.php on line 527
+[22-May-2024 19:24:57 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[23-May-2024 18:15:19 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[24-May-2024 10:58:00 UTC] PHP Notice:  Trying to get property 'title' of non-object in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[24-May-2024 11:37:30 UTC] PHP Deprecated:  strpos(): Non-string needles will be interpreted as strings in the future. Use an explicit chr() call to preserve the current behavior in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-content\plugins\fusion-builder\inc\class-fusion-builder-admin.php on line 527
+[24-May-2024 19:11:15 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\class-wpdb.php on line 1987
+[24-May-2024 19:11:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[24-May-2024 19:11:36 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[26-May-2024 16:03:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211
+[26-May-2024 16:03:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\Tekhqs\Local Sites\ahmad-hub\app\public\wp-includes\update.php on line 211

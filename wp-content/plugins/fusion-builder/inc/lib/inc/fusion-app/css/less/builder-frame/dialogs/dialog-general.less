@@ -1,0 +1,684 @@
+.fusion-builder-live {
+
+	.ui-widget-content {
+		color: var(--gray-dark);
+	}
+
+	.fusion-builder-dialog.ui-dialog {
+		font-family: var(--family-stack);
+		border: none !important;
+		box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+		font-size: 13px;
+		padding: 0;
+		overflow: hidden;
+		background: var(--white);
+		color: var(--gray-dark);
+
+		.fusion-builder-all-elements-container {
+			padding: 0 20px;
+		}
+
+		&.fusion-builder-settings-dialog {
+			background: transparent;
+		}
+
+		/* Modal Tabs */
+		.fusion-tabs-menu {
+			background: var(--blue);
+			padding: 0;
+			list-style: none;
+			clear: both;
+			margin: 0;
+			display: flex;
+
+			li {
+				display: inline-flex;
+				position: relative;
+
+				a {
+					display: block;
+					padding: 0.8em 1.1em;
+					color: var(--white);
+					font-weight: 600;
+					font-size: 14px;
+					font-family: var(--family-stack);
+					text-decoration: none;
+					transition: background-color 0.1s ease;
+
+					&:focus {
+						outline: none;
+					}
+
+					&:hover {
+						background: var(--blue-hover);
+					}
+				}
+
+				&.current {
+
+					a {
+						background: var(--blue-active);
+					}
+				}
+			}
+		}
+
+		.fusion-builder-modal-search {
+			position: absolute;
+			top: 12px;
+			height: 36px;
+			border-radius: 3px;
+			padding: 0 15px;
+			border: 1px solid var(--gray-dark-border);
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+			background-color: var(--gray-dark-alt);
+			color: var(--gray-light);
+
+			.ltr& {
+				right: 90px;
+			}
+
+			.rtl& {
+				left: 90px;
+			}
+
+			label {
+
+				span {
+					display: none;
+				}
+			}
+
+			.fusion-elements-filter {
+				width: auto;
+				font-size: 14px;
+				height: 100%;
+				outline: none;
+				border: none;
+				background: var(--gray-dark-alt);
+				color: var(--white);
+
+				.ltr& {
+					padding: 5px 0 5px 10px;
+				}
+
+				.rtl& {
+					padding: 5px 10px 5px 0;
+				}
+
+
+				&:focus {
+					box-shadow: none;
+				}
+			}
+		}
+
+		.ui-dialog-content {
+			padding: 0;
+		}
+
+		.ui-dialog-titlebar {
+			background: var(--gray-dark);
+			border: none;
+			font-size: 18px;
+			padding: 15px 15.5px;
+			color: var(--white);
+			font-family: var(--family-stack);
+			border-radius: 0;
+
+			.ui-dialog-title {
+				font-weight: 600;
+
+				.rtl& {
+					float: right;
+					direction: rtl;
+				}
+			}
+
+			.ui-dialog-titlebar-close {
+				font-family: "fusion-builder-icons";
+				speak: never;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				border: none;
+				background: none;
+				text-indent: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				color: var(--white);
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				z-index: 10;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 30px;
+				font-size: 0;
+
+				.ltr& {
+					right: 0;
+					margin-right: 10px;
+				}
+
+				.rtl& {
+					right: auto;
+					left: 0;
+					margin-left: 10px;
+				}
+
+				&:active,
+				&:focus,
+				&:hover {
+					background: none;
+					border: none;
+					color: var(--white);
+				}
+
+				.ui-button-text,
+				.ui-icon {
+					display: none;
+				}
+
+				&:before {
+					font-size: 14px;
+					display: block;
+					content: "\e904";
+				}
+			}
+		}
+
+		&.fusion-video-dialog {
+
+			.ui-dialog-titlebar {
+				border-bottom: 1px solid var(--border-bottom-dark);
+				padding: 0;
+
+				.ui-dialog-title {
+					padding: 1em 25px;
+					margin: 0;
+					width: ~"calc(100% - 60px)";
+				}
+
+				.ui-dialog-titlebar-ƒ {
+					top: 20px !important;
+					width: 60px;
+					right: 0;
+					height: auto;
+				}
+			}
+
+			.ui-dialog-content {
+				padding: 1em 25px 30px;
+				width: 100% !important;
+				overflow: hidden;
+
+				iframe {
+					width: 100% !important;
+				}
+			}
+		}
+
+		&.fusion-builder-css-dialog {
+			max-width: 380px;
+		}
+
+		.fusion-builder-controls {
+
+			a {
+				font-size: 14px;
+			}
+		}
+	}
+
+	#fusion-loader,
+	.fusion-loader {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: var(--white);
+		z-index: 999;
+		display: none;
+		top: 0;
+		left: 0;
+
+		.fusion-builder-loader {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -2em 0 0 -2em;
+			color: transparent;
+			font-size: 10px;
+			border-top: 0.5em solid rgba(0, 0, 0, 0.2);
+			border-right: 0.5em solid rgba(0, 0, 0, 0.2);
+			border-bottom: 0.5em solid #333;
+			border-left: 0.5em solid rgba(0, 0, 0, 0.2);
+			animation: fusion-rotate 0.8s infinite linear;
+			width: 4em;
+			height: 4em;
+			border-radius: 50%;
+			background-clip: padding-box;
+
+			&:after {
+				width: 4em;
+				height: 4em;
+				border-radius: 50%;
+				background-clip: padding-box;
+			}
+		}
+	}
+
+	// Error dialog.
+	.fusion-builder-dialog.ui-dialog.fusion-builder-error-dialog {
+		background-color: var(--white);
+
+		.ui-dialog-titlebar {
+			background: transparent;
+			color: inherit;
+
+			.ui-dialog-titlebar-close {
+				color: inherit;
+				display: none;
+			}
+
+			.icon.type-warning {
+				display: inline-block;
+				width: 32px;
+				height: 32px;
+				color: var(--failure);
+				text-align: center;
+				margin-right: 20px;
+				background-color: rgba(244, 40, 79, 0.1);
+				border-radius: 50%;
+
+				i {
+					line-height: 32px;
+				}
+			}
+		}
+
+		.ui-dialog-content {
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 9px 20px 30px;
+			font-size: 14px;
+			line-height: 22px;
+
+			p:last-child {
+				margin-bottom: 0;
+			}
+
+			a {
+				text-decoration: none;
+				color: var(--blue);
+			}
+		}
+	}
+
+	&.fusion-builder-blank-page-active {
+
+		.fusion-builder-container-library-dialog {
+
+			li a[href="#misc"]:not(.misc-tab-fusion_form) {
+				display: none;
+			}
+		}
+	}
+
+	// Bulk-Add Dialog.
+	.fusion-builder-settings-dialog.bulk-add-dialog {
+
+		.ui-dialog-titlebar {
+
+			.ui-dialog-titlebar-close {
+				display: none;
+			}
+		}
+
+		.ui-dialog-buttonset {
+			float: none;
+			display: flex;
+			justify-content: space-between;
+
+			.ui-button {
+				margin-left: 16px;
+				border-radius: 4px;
+				font-weight: 600;
+				border-color: var(--blue);
+				background: var(--white);
+				color: var(--blue);
+
+				&.ui-button-blue {
+					background: var(--blue);
+					color: var(--white);
+				}
+			}
+		}
+
+		.ui-dialog-content {
+			color: var(--gray);
+			padding: 20px;
+
+			.predefined-choice {
+				margin: 3px 0;
+				padding: 5px;
+				background-color: var(--gray-bg);
+				border-radius: 4px;
+				text-align: center;
+				cursor: pointer;
+
+				&.selected {
+					background-color: var(--border-color);
+				}
+			}
+
+			.fusion-builder-bulk-add-label {
+				font-style: italic;
+				margin-bottom: 10px;
+				// color: #666;
+			}
+
+			.fusion-builder-bulk-sections {
+				display: flex;
+				justify-content: space-between;
+
+				.fusion-builder-bulk-section-left,
+				.fusion-builder-bulk-section-right {
+					width: ~"calc(( 100% - 20px ) / 2)";
+
+					.bulk-section-title {
+						margin-bottom: 5px;
+						font-weight: 600;
+						color: var(--gray-dark);
+					}
+				}
+			}
+		}
+	}
+
+	#customize-controls #fusion-builder-sections-eo,
+	.fusion-builder-dialog.ui-dialog {
+
+		.fusion-builder-dialog-more-options {
+			font-family: var(--family-stack);
+			position: absolute;
+			z-index: 999;
+			background: var(--white);
+			color: var(--gray-dark);
+			padding: 10px 0;
+			left: auto;
+			top: 45px;
+			width: 270px;
+			opacity: 0;
+			pointer-events: none;
+			border-radius: 6px;
+			box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+			border: 1px solid rgba(0, 0, 0, 0);
+			cursor: auto;
+			transition: opacity 0.2s, top 0.2s;
+
+			.ltr& {
+				right: -21px;
+			}
+
+			.rtl& {
+				left: -21px;
+			}
+
+			.resize-section-wrap {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				margin: 0 20px;
+			}
+
+			.resize-section-title {
+				font-size: 11px;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: var(--gray-light);
+				letter-spacing: 1;
+				padding: 5px 10px;
+			}
+
+			.resize-icons {
+				display: flex;
+				align-items: center;
+				padding: 0 2px;
+
+				.resize-icon {
+					overflow: visible;
+					padding: 12px 8px;
+					cursor: pointer;
+
+					svg {
+						fill: var(--gray-light);
+						width: 16px;
+						height: 16px;
+						transition: all 0.1s ease;
+					}
+
+					&:hover,
+					&.active {
+
+						svg {
+							fill: var(--blue);
+						}
+					}
+
+					&.has-tooltip {
+						position: relative;
+
+						&:before {
+							content: "";
+							border: 5px solid transparent;
+							border-bottom-color: #1d2226;
+							top: 19px;
+							z-index: 2;
+							transition: all 0.2s ease 0.2s;
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							opacity: 0;
+							line-height: normal;
+							pointer-events: none;
+						}
+
+						&:after {
+							content: attr(aria-label);
+							top: 29px;
+							background: #1d2226;
+							color: #fff;
+							border: 1px solid #1d2226;
+							white-space: nowrap;
+							padding: 10px;
+							font-size: 11px;
+							font-family: var(--family-stack);
+							font-weight: 600;
+							text-transform: uppercase;
+							letter-spacing: 0.05em;
+							border-radius: 4px;
+							margin: 0;
+							z-index: 200;
+							transition: all 0.2s ease 0.2s;
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							opacity: 0;
+							line-height: normal;
+							-webkit-font-smoothing: auto;
+							pointer-events: none;
+						}
+
+						&:hover {
+
+							&:before {
+								top: 30px;
+								opacity: 1;
+							}
+
+							&:after {
+								top: 40px;
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+
+			.dialog-more-options-section-menu {
+				margin: 0 10px;
+
+				.dialog-more-menu-items {
+					margin: 0 0 10px 0;
+					list-style: none;
+					padding: 0;
+					font-size: 14px;
+					line-height: 2em;
+					color: var(--gray-dark);
+					font-weight: 400;
+
+					.dialog-more-menu-item {
+						padding: 9px 0;
+						cursor: pointer;
+						transition: all 0.1s ease;
+						color: var(--gray-dark);
+
+						span {
+							display: inline-block;
+							padding: 0 15px;
+							width: 15px;
+							box-sizing: content-box;
+							color: var(--gray-light);
+						}
+
+						&:hover {
+							background-color: rgba(25, 143, 217, 0.07);
+							color: var(--blue);
+							border-radius: 4px;
+
+							a,
+							span {
+								color: var(--blue);
+							}
+						}
+
+						a {
+							text-decoration: none;
+							color: var(--gray-dark);
+							display: block;
+						}
+					}
+				}
+			}
+
+			.dialog-more-options-section-remove-item {
+				margin: 10px 10px 0 10px;
+
+				.dialog-more-remove-item {
+					display: flex;
+					align-items: center;
+					font-size: 14px;
+					line-height: 2em;
+					color: var(--failure);
+					padding: 9px 0 9px;
+					margin-top: 10px;
+					font-weight: 500;
+					cursor: pointer;
+
+					&:hover {
+						background-color: rgba(224, 40, 48, 0.07);
+						border-radius: 4px;
+					}
+
+					span {
+						padding: 0 15px;
+						width: 15px;
+						box-sizing: content-box;
+					}
+
+					.dialog-more-remote-title {
+						display: inline-block;
+					}
+				}
+			}
+
+			.dialog-more-separator {
+				display: block;
+				width: 100%;
+				border-bottom: 1px solid var(--gray-bg);
+				padding: 0;
+			}
+
+			&:before {
+				bottom: 100%;
+				border: 5px solid transparent;
+				border-bottom-color: var(--white);
+				content: " ";
+				height: 0;
+				width: 0;
+				position: absolute;
+				pointer-events: none;
+
+				.ltr& {
+					right: 29px;
+				}
+
+				.rtl& {
+					left: 29px;
+				}
+			}
+		}
+
+		// Active state.
+		.fusion-utility-menu-wrap {
+			position: absolute;
+			right: 45px;
+			top: 50%;
+			transform: translateY(-50%);
+			background: transparent;
+			width: auto !important;
+			display: flex;
+			align-items: center;
+			z-index: 20;
+			padding: 5px;
+
+			.fusion-utility-menu {
+				cursor: pointer;
+			}
+
+			&.active {
+				overflow: visible;
+				z-index: 7;
+
+				.fusion-utility-menu {
+					color: var(--blue);
+				}
+
+				.fusion-builder-dialog-more-options {
+					top: 35px;
+					opacity: 1;
+					pointer-events: auto;
+				}
+			}
+		}
+	}
+
+	.attachments-browser .media-toolbar-secondary {
+		display: flex;
+		align-items: center;
+
+		.spinner {
+			margin-top: 32px;
+		}
+	}
+}
+
+.ui-dialog {
+	z-index: 99999 !important;
+}

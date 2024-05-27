@@ -1,0 +1,96 @@
+.rtl .fusion-form {
+	&-form-wrapper {
+
+		// Form fields.
+		.fusion-form-field {
+			.fusion-form-input {
+				text-align: right;
+				margin-right: 0;
+			}
+
+			.fusion-form-rating-area {
+				direction: ltr;
+				text-align: right;
+			}
+			.fusion-form-input-with-icon {
+
+				& > i {
+					left: auto;
+					right: 1em;
+				}
+				.fusion-form-input {
+					padding-right: 2.5em !important;
+					padding-left: 1em !important;
+				}
+
+				> .awb-form-icon {
+					right: calc(1em + var(--awb-form-border-width-right)) !important;
+				}
+
+				> .awb-form-pw-reveal-icon {
+					left: calc(1em + var(--awb-form-border-width-right)) !important;
+				}
+			}
+
+			.awb-form-pw-reveal {
+				& > .awb-form-pw-reveal-icon {
+					left: 1em;
+					right: auto;
+				}
+
+				&:not(.awb-form-both-icons) {
+					.fusion-form-input {
+						padding-right: 1em !important;
+					}
+				}
+
+				.fusion-form-input {
+					padding-right: 2.5em !important;
+					padding-left: 2.5em !important;
+				}
+			}
+
+			.fusion-form-checkbox label,
+			.fusion-form-radio label {
+				padding: 0 20px 0 0;
+				&:before {
+					left: auto;
+					right: 0;
+				}
+				&:after {
+					right: 4px;
+					left: auto;
+				}
+			}
+
+			.fusion-select-wrapper .select-arrow {
+				left: 1em;
+				right: auto;
+			}
+
+			.fusion-form-range-field-container {
+				flex-direction: row-reverse;
+			}
+
+			// Tooltips.
+			.fusion-form-tooltip {
+				margin-right: 6px;
+				margin-left: 0;
+
+				&:hover {
+					.fusion-form-tooltip-content {
+						right: -1.35em;
+						left: auto;
+
+						&::before {
+							right: ~"calc( 1.4em - 5px )";
+							left: auto;
+							margin-right: 4px;
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

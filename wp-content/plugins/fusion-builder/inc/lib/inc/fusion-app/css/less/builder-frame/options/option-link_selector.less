@@ -1,0 +1,41 @@
+.fusion-builder-option {
+
+	&.link_selector {
+
+		.fusion-link-selector {
+			display: flex;
+			margin: 0 -7.5px;
+
+			.fusion-builder-link-field,
+			.button-link-selector {
+				margin: 0 7.5px;
+			}
+
+		}
+
+		.button-link-selector {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			background: var(--white);
+			border: 1px solid var(--border-color);
+			border-radius: 4px;
+			color: var(--gray-dark);
+			box-shadow: 0 1px 1px rgba(102, 113, 123, 0.16);
+			height: 40px;
+			max-width: 40px;
+			width: 100%;
+			cursor: pointer;
+			font-size: 14px;
+
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: var(--blue);
+				color: var(--white);
+				border-color: var(--blue);
+				box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.14);
+			}
+		}
+	}
+}

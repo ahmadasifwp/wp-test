@@ -1,0 +1,130 @@
+.fusion-builder-option {
+	.fusion-dynamic-selection {
+		display: none;
+	}
+	.fusion-dynamic-content {
+		display: none;
+
+		.fusion-builder-option {
+			width: 100%;
+		}
+		.dynamic-wrapper {
+			padding: 0;
+			border: 1px solid var(--border-color);
+			border-radius: 4px !important;
+			box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.06);
+			background: var(--white);
+			transition: 0.2s all;
+
+			&:hover {
+				box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.08);
+				transition: 0.2s all;
+			}
+
+			.dynamic-title {
+				margin: 0;
+				padding: 10px;
+				position: relative;
+				cursor: pointer;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				h3 {
+					display: inline-block;
+					margin: 0 !important;
+					text-transform: capitalize;
+				}
+
+				.dynamic-remove,
+				.dynamic-toggle-icon {
+					cursor: pointer;
+					font-size: 14px;
+					color: var(--gray-light);
+					max-width: 20px;
+					width: 100%;
+					text-align: center;
+					&:hover {
+						color: var(--blue);
+					}
+				}
+				.dynamic-remove.fusiona-trash-o {
+					&:hover {
+						color: var(--failure);
+					}
+				}
+				.dynamic-remove.fusiona-close-fb {
+					font-size: 11px;
+					&:hover {
+						color: var(--blue);
+					}
+				}
+			}
+
+			.dynamic-param-fields {
+				padding: 30px 20px;
+				padding-top: 0;
+				margin: 0;
+				list-style: none;
+				display: none;
+				background: var(--gray-bg);
+				border-top: 1px solid var(--border-color);
+
+				.fusion-form-radio-button-set.ui-buttonset a.ui-button:not(.ui-state-active) {
+					background-color: var(--white);
+				}
+
+				> li {
+					margin: 26px 0 0 0;
+					.option-field {
+						input {
+							margin: 0;
+						}
+					}
+					.option-details {
+						h3 {
+							margin: 0 0 12px 0;
+							line-height: 1;
+						}
+						.description {
+							font-size: 12px;
+							color: var(--gray-light);
+							margin: 0 0 12px 0;
+							display: block;
+						}
+					}
+					.fusion-builder-option {
+						.select2-container {
+							.select2-selection {
+								box-shadow: 0 0 1px rgba(102, 113, 123, 0.26);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&[data-dynamic="true"] {
+		.fusion-dynamic-content {
+			display: block;
+		}
+		> .option-field.fusion-builder-option-container {
+			display: none;
+		}
+	}
+
+	&[data-dynamic-selection="true"] {
+		.fusiona-dynamic-data::before {
+			content: "\e904";
+		}
+		> .option-field.fusion-builder-option-container,
+		.fusion-dynamic-content {
+			display: none;
+		}
+		.fusion-dynamic-selection {
+			display: block;
+		}
+	}
+
+}

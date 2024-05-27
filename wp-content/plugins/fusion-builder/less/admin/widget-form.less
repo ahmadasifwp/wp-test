@@ -1,0 +1,128 @@
+.fusion-builder-main-settings {
+	.fusion-widget-settings-form {
+
+		.widget-inside {
+			margin: -2em -2.5%;
+			border: 0;
+			box-shadow: none;
+
+			.media-widget-gallery-preview {
+				padding: 2em 1.2% 0;
+
+				li {
+					border-bottom: none;
+					width: 20%;
+					padding: 0;
+
+					.gallery-icon {
+
+						img {
+							max-height: 120px;
+						}
+					}
+				}
+			}
+
+			.media-widget-control {
+				.media-widget-buttons,
+				.media-widget-fields {
+					border: 0 !important;
+					padding-bottom: 0 !important;
+					padding-left: 3% !important;
+				}
+
+				.media-widget-buttons {
+					padding-top: 0 !important;
+				}
+			}
+
+			.form {
+				margin-bottom: 0;
+
+				.text-widget-fields,
+				.custom-html-widget-fields,
+				.media-widget-control,
+				.widget-content {
+					& .tribe > p,
+					& > div:not(.tribe),
+					& > p {
+						margin: 0;
+						padding: 2em 2.5%;
+						border-top: 1px solid #ddd;
+
+						&:first-child {
+							border-top: none;
+						}
+					}
+				}
+			}
+
+			p {
+				overflow: hidden; // clearfix
+
+				.widefat {
+					clear: none;
+				}
+
+				label {
+					color: #23282d;
+					font-weight: 600;
+					font-size: 1.3em;
+					display: block;
+					width: 40%;
+					float: left;
+
+					input {
+						float: right !important;
+					}
+				}
+
+				select,
+				input:not(.button):not(input[type="checkbox"]):not(input[type="radio"]) {
+					display: block;
+					width: 50% !important;
+					float: left;
+					margin-right: 0;
+					margin-left: 10%;
+				}
+
+				input[type="checkbox"],
+				input[type="radio"] {
+					margin-left: 10% !important;
+				}
+
+				input ~ br {
+					clear: both;
+				}
+			}
+		}
+
+		input[type="text"],
+		textarea:not(.wp-editor-area) {
+			width: 100%;
+			line-height: 1.75em;
+			padding-left: 0.75em;
+			padding-right: 0.75em;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			background: #f4f2f2 !important;
+			border: 1px solid rgba(0, 0, 0, 0.05);
+			min-height: 34px;
+			border-radius: 0;
+		}
+
+		select {
+			line-height: 1.75em;
+			padding-left: 0.75em;
+			padding-right: 0.75em;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			border: 1px solid rgba(0, 0, 0, 0.05);
+			min-height: 34px;
+			height: 34px;
+			border-radius: 0;
+			background: #f4f2f2 url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E") no-repeat right 5px top 55%;
+			background-size: 15px;
+		}
+	}
+}

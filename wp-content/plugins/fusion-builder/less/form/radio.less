@@ -1,0 +1,79 @@
+.fusion-form {
+	&-form-wrapper {
+		.fusion-form-field {
+			.fusion-form-radio {
+				display: flex;
+				align-items: center;
+				flex-direction: row;
+
+				&.option-inline {
+					display: inline-flex;
+					margin-right: 1.5em;
+				}
+
+				&:not(.option-inline) {
+					margin-bottom: 0.5em;
+				}
+
+				label {
+					margin: 0;
+					position: relative;
+					padding: 0 0 0 1.34em;
+					cursor: pointer;
+
+					&:before {
+						content: "";
+						min-width: 13px;
+						height: 13px;
+						border: 1px solid var(--awb-form-border-color);
+						border-radius: 100%;
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+						transition: all 0.2s ease;
+
+					}
+					&:after {
+						content: "";
+						left: 4px;
+						width: 7px;
+						height: 7px;
+						border-radius: 100%;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+					}
+				}
+
+				input {
+					position: absolute;
+					width: 14px;
+					height: 14px;
+					opacity: 0;
+					margin: 0;
+
+					&:checked + label:before {
+						border-color: var(--awb-form-focus-border-color);
+					}
+
+					&:checked + label:after {
+						background-color: var(--awb-form-focus-border-color);
+					}
+
+					&:hover:not(:checked) + label:before {
+						border-color: var(--awb-form-focus-border-hover-color);
+					}
+
+					&:focus + label:before {
+						border-color: var(--awb-form-focus-border-color);
+					}
+
+					&:hover + label:before {
+						border-color: var(--awb-form-focus-border-color);
+					}
+				}
+			}
+		}
+	}
+}

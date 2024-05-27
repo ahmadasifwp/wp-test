@@ -1,0 +1,67 @@
+.fusion-builder-option {
+
+	.fusion-builder-add-sortable-child {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background: var(--blue);
+		padding: 8px 15px;
+		color: var(--white);
+		font-weight: 700;
+		font-size: 14px;
+		border-radius: 3px;
+		line-height: 26px;
+		clear: both;
+		margin-bottom: 20px;
+		text-align: center;
+		text-decoration: none;
+		transition: 0.2s all;
+
+		.fusiona-plus,
+		.add-sortable-child-text {
+			padding-right: 2.5px;
+			padding-left: 2.5px;
+		}
+
+		&:hover {
+			background: var(--blue-hover);
+		}
+	}
+
+	.fusion-sortable-text-options {
+		padding-left: 0;
+
+		.fusion-sortable-option {
+			display: flex;
+			align-items: center;
+			margin-bottom: 15px;
+
+			input {
+				margin-bottom: 0;
+			}
+
+			a {
+				display: inline-block;
+				text-decoration: none;
+				color: var(--gray-light);
+
+				&.fusion-sortable-move {
+					padding-left: 10px;
+
+					&:hover {
+						color: var(--blue);
+					}
+				}
+
+				&.fusion-sortable-remove {
+					padding-left: 14px;
+					padding-right: 10px;
+
+					&:hover {
+						color: var(--failure);
+					}
+				}
+			}
+		}
+	}
+}

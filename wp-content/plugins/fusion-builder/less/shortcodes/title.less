@@ -1,0 +1,776 @@
+.fusion-body .fusion-title {
+	--awb-highlight-color: var(--primary_color, #65bc7b);
+	--awb-highlight-top-margin: 0;
+	--awb-highlight-width: 9;
+	--awb-text-color: var(--body_typography-color);
+	--awb-margin-top: var(--title_margin-top);
+	--awb-margin-right: var(--title_margin-right);
+	--awb-margin-bottom: var(--title_margin-bottom);
+	--awb-margin-left: var(--title_margin-left);
+	--awb-link-color: var(--link_color);
+	--awb-link-hover-color: var(--link_hover_color);
+	--awb-sep-color: var(--title_border_color);
+	--awb-font-size: var(--body_typography-font-size);
+
+	margin-top: var(--awb-margin-top);
+	margin-right: var(--awb-margin-right);
+	margin-bottom: var(--awb-margin-bottom);
+	margin-left: var(--awb-margin-left);
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	border-bottom-color: var(--awb-sep-color);
+	font-size: var(--awb-font-size);
+
+	a {
+		color: var(--awb-link-color);
+	}
+	a:hover {
+		color: var(--awb-link-hover-color);
+	}
+	&.fusion-title-size-one {
+		--awb-font-size: var(--h1_typography-font-size);
+		--awb-text-color: var(--h1_typography-color);
+	}
+	&.fusion-title-size-two {
+		--awb-font-size: var(--h2_typography-font-size);
+		--awb-text-color: var(--h2_typography-color);
+	}
+	&.fusion-title-size-three {
+		--awb-font-size: var(--h3_typography-font-size);
+		--awb-text-color: var(--h3_typography-color);
+	}
+	&.fusion-title-size-four {
+		--awb-font-size: var(--h4_typography-font-size);
+		--awb-text-color: var(--h4_typography-color);
+	}
+	&.fusion-title-size-five {
+		--awb-font-size: var(--h5_typography-font-size);
+		--awb-text-color: var(--h5_typography-color);
+	}
+	&.fusion-title-size-six {
+		--awb-font-size: var(--h6_typography-font-size);
+		--awb-text-color: var(--h6_typography-color);
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		> p:last-of-type {
+			margin-bottom: 0;
+		}
+	}
+
+	.comment-reply-title {
+		margin: 0;
+	}
+
+	.comment-reply-title,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	div.title-heading-tag,
+	p.title-heading-tag {
+		&.title-heading-left {
+			text-align: left;
+
+			.fontawesome-icon {
+				margin-right: 10px;
+			}
+		}
+
+		&.title-heading-right {
+			text-align: right;
+
+			.fontawesome-icon,
+			img {
+				margin-left: 10px;
+				margin-right: 0;
+			}
+		}
+
+		img {
+			margin-right: 10px;
+		}
+
+		.fontawesome-icon {
+			display: inline-block;
+			float: none;
+			vertical-align: middle;
+			margin-left: 0;
+			margin-top: 0;
+		}
+	}
+
+	.awb-title-spacer {
+		max-width: 0.3em;
+		flex-grow: 1;
+	}
+
+	&.fusion-title-center {
+		text-align: center;
+
+		&.fusion-sep-none,
+		&.sep-underline {
+			.title-heading-center {
+				padding: 0;
+				text-align: center;
+			}
+		}
+	}
+
+	&.fusion-sep-none {
+		display: block;
+
+		.title-heading-left {
+			padding: 0;
+			text-align: left;
+		}
+
+		.title-heading-right {
+			padding: 0;
+			text-align: right;
+		}
+	}
+
+	.title-sep-container {
+		position: relative;
+		height: 6px;
+		flex-grow: 1;
+	}
+
+	&.sep-underline {
+		display: block;
+		padding-bottom: 10px;
+		width: 100%;
+		border-bottom: 1px solid var(--awb-sep-color);
+
+		&.sep-dashed {
+			border-bottom-style: dashed;
+		}
+
+		&.sep-dotted {
+			border-bottom-style: dotted;
+		}
+
+		.title-heading-right {
+			margin: 0;
+		}
+
+		.title-heading-left,
+		.title-heading-right {
+			padding: 0;
+		}
+	}
+
+	.title-sep {
+		position: relative;
+		display: block;
+		width: 100%;
+		border-style: solid;
+		border: 0 solid var(--awb-sep-color);
+		box-sizing: content-box;
+
+		&.sep-double {
+			height: 6px;
+			border-bottom-width: 1px;
+			border-top-width: 1px;
+		}
+
+		&.sep-single {
+			border-bottom-width: 1px;
+		}
+
+		&.sep-dashed {
+			border-bottom-style: dashed;
+			border-top-style: dashed;
+		}
+
+		&.sep-dotted {
+			border-bottom-style: dotted;
+			border-top-style: dotted;
+		}
+	}
+
+	.fusion-animated-texts {
+		visibility: hidden;
+	}
+
+	.fusion-animated-texts-wrapper {
+		position: relative;
+		display: inline-block;
+		white-space: nowrap;
+		width: 0;
+		text-align: initial;
+	}
+
+	.fusion-animated-text {
+		opacity: 0;
+		position: absolute;
+	}
+
+	&.fusion-title-typeIn {
+		.fusion-animated-texts-wrapper {
+			&:before {
+				content: "";
+				position: absolute;
+				left: auto;
+				right: 0;
+				top: 50%;
+				transform: translateY(-50%);
+				height: 90%;
+				width: 1px;
+				background-color: var(--awb-text-color);
+				animation: typeInCursor 1s infinite;
+			}
+		}
+	}
+
+	&.fusion-title-clipIn {
+		span[class^="line"] {
+			overflow: hidden;
+			display: inline-flex !important;
+			width: 0;
+		}
+
+		.fusion-animated-texts-wrapper {
+			&:before {
+				content: "";
+				position: absolute;
+				top: 0;
+				left: auto;
+				right: 0;
+				width: 2px;
+				height: 100%;
+				background-color: var(--awb-text-color);
+			}
+		}
+	}
+
+	&.fusion-title-highlight {
+		overflow: visible;
+
+		.fusion-highlighted-text {
+			position: relative;
+			display: inline-block;
+		}
+
+		.fusion-highlighted-text-wrapper {
+			position: relative;
+			display: inline-block;
+
+			svg {
+				margin-top: var(--awb-highlight-top-margin);
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				width: ~"calc(100% + .75em)";
+				height: ~"calc(100% + .75em)";
+				transform: translate(-50%, -50%);
+				overflow: visible;
+
+				path {
+					stroke: var(--awb-highlight-color);
+					stroke-width: var(--awb-highlight-width);
+					fill: none;
+					stroke-dasharray: 1500;
+					stroke-linecap: round;
+					stroke-linejoin: round;
+					animation: fusion-title-highlight 10s;
+				}
+			}
+		}
+
+		&.fusion-loop-on {
+			&.fusion-highlight-double_underline,
+			&.fusion-highlight-double,
+			&.fusion-highlight-x {
+				.fusion-highlighted-text-wrapper {
+					svg {
+						path:last-child {
+							opacity: 0;
+							animation-delay: 0.7s;
+						}
+					}
+				}
+			}
+
+			.fusion-highlighted-text-wrapper {
+				svg {
+					path {
+						animation-iteration-count: infinite;
+						animation-name: fusion-title-highlight;
+					}
+				}
+			}
+		}
+
+		&.fusion-loop-off {
+			.fusion-highlighted-text-wrapper {
+				svg {
+					path {
+						animation-name: fusion-title-highlight-off-loop;
+					}
+				}
+			}
+		}
+
+		&.fusion-highlight-circle {
+			.fusion-highlighted-text-wrapper {
+				svg {
+					height: ~"calc(100% + 1.3em)";
+				}
+			}
+		}
+	}
+	&.fusion-title-slideInDown {
+		overflow: hidden;
+	}
+
+	&.fusion-text-has-stroke {
+		--awb-text-stroke-size: 1px;
+		--awb-text-stroke-color: var(--primary_color);
+
+		.fusion-title-heading {
+			-webkit-text-stroke: var(--awb-text-stroke-size) var(--awb-text-stroke-color);
+		}
+	}
+	&.fusion-has-text-overflow {
+		--awb-text-overflow: "ellipsis";
+
+		.fusion-title-heading {
+			overflow: hidden;
+			white-space: nowrap;
+			text-overflow: var(--awb-text-overflow);
+		}
+	}
+}
+// Need higher specificity than title styles from Avada.
+.fusion-body .awb-off-canvas-wrap .fusion-title,
+.fusion-body .fusion-modal .fusion-title,
+.fusion-body #wrapper .fusion-title {
+	.comment-reply-title,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	div.title-heading-tag,
+	p.title-heading-tag {
+		flex-grow: 0;
+		padding: 0;
+		font-size: 1em;
+		color: var(--awb-text-color);
+	}
+}
+.awb-gradient-text {
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.fusion-border-below-title {
+	display: block;
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		#main .post-content & {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	.title-sep-container {
+		display: none;
+		height: 8px;
+	}
+}
+
+/******************************
+* Title highlight animations.
+*******************************/
+
+@keyframes fusion-title-highlight {
+	0% {
+		stroke-dasharray: 0 1500;
+		opacity: 1;
+	}
+
+	15% {
+		stroke-dasharray: 1500 1500;
+	}
+
+	85% {
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 1500 1500;
+		opacity: 0;
+	}
+
+	100% {
+		stroke-dasharray: 0 1500;
+		opacity: 0;
+	}
+}
+
+@keyframes fusion-title-highlight-off-loop {
+	0% {
+		stroke-dasharray: 0 1500;
+		opacity: 1;
+	}
+
+	15% {
+		stroke-dasharray: 1500 1500;
+	}
+
+	85% {
+		opacity: 1;
+	}
+
+	90% {
+		stroke-dasharray: 1500 1500;
+		opacity: 1;
+	}
+
+	100% {
+		stroke-dasharray: 1500 1500;
+		opacity: 1;
+	}
+}
+
+/******************************
+* Title rotation animations.
+*******************************/
+@keyframes typeIn {
+	from {
+		display: none;
+	}
+
+	to {
+		display: inline-block;
+	}
+}
+
+@keyframes typeOut {
+	from {
+		display: inline-block;
+	}
+
+	to {
+		display: none;
+	}
+}
+
+@keyframes typeInCursor {
+	0% {
+		transform: translateY(-50%) scale(1);
+		opacity: 1;
+	}
+
+	40% {
+		transform: translateY(-50%) scale(0.9);
+		opacity: 0;
+	}
+
+	100% {
+		transform: translateY(-50%) scale(0);
+		opacity: 0;
+	}
+}
+
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+
+	50% {
+		opacity: 1;
+		transform: scale(1.05);
+	}
+
+	70% {
+		transform: scale(0.9);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes bounceOut {
+	0% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(0.95);
+	}
+
+	50% {
+		opacity: 1;
+		transform: scale(1.1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.3);
+	}
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut {
+	0% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes flipInX {
+	from {
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+	}
+
+	to {
+		transform: perspective(400px);
+	}
+}
+
+@keyframes flipOutX {
+	from {
+		transform: perspective(400px);
+	}
+
+	30% {
+		transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+		opacity: 1;
+	}
+
+	to {
+		transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+		opacity: 0;
+	}
+}
+
+@keyframes lightSpeedIn {
+	0% {
+		transform: translateX(100%) skewX(-30deg);
+		opacity: 0;
+	}
+
+	60% {
+		transform: translateX(-20%) skewX(30deg);
+		opacity: 1;
+	}
+
+	80% {
+		transform: translateX(0%) skewX(-15deg);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateX(0%) skewX(0deg);
+		opacity: 1;
+	}
+}
+
+@keyframes lightSpeedOut {
+	0% {
+		transform: translateX(0%) skewX(0deg);
+		opacity: 1;
+	}
+
+	100% {
+		transform: translateX(100%) skewX(-30deg);
+		opacity: 0;
+	}
+}
+
+@keyframes rollIn {
+	from {
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes rollOut {
+	from {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+		transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+	}
+}
+
+@keyframes slideInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-2000px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes slideOutUpTitle {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		visibility: hidden;
+		transform: translate3d(0, -100%, 0);
+	}
+}
+
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	50% {
+		opacity: 1;
+	}
+}
+
+@keyframes zoomOut {
+	0% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+.fusion-title-animated {
+	visibility: hidden;
+	animation-fill-mode: both;
+	animation-duration: 1s;
+	&.typeIn,
+	&.typeOut {
+		animation-duration: 0.1s;
+	}
+
+	&.bounceIn {
+		animation-name: bounceIn;
+	}
+
+	&.bounceOut {
+		animation-name: bounceOut;
+	}
+
+	&.fadeIn {
+		animation-name: fadeIn;
+	}
+
+	&.fadeOut {
+		animation-name: fadeOut;
+	}
+
+	&.flipInX {
+		animation-name: flipInX;
+	}
+
+	&.flipOutX {
+		animation-name: flipOutX;
+	}
+
+	&.lightSpeedIn {
+		animation-name: lightSpeedIn;
+		animation-timing-function: ease-out;
+	}
+
+	&.lightSpeedOut {
+		animation-name: lightSpeedOut;
+		animation-timing-function: ease-in;
+	}
+
+	&.rollIn {
+		animation-name: rollIn;
+	}
+
+	&.rollOut {
+		animation-name: rollOut;
+	}
+
+	&.typeIn {
+		animation-name: typeIn;
+	}
+
+	&.typeOut {
+		animation-name: typeOut;
+	}
+
+	&.slideInDown {
+		animation-name: slideInDown;
+	}
+
+	&.slideOutUp {
+		animation-name: slideOutUpTitle !important;
+	}
+
+	&.zoomIn {
+		animation-name: zoomIn;
+	}
+
+	&.zoomOut {
+		animation-name: zoomOut;
+	}
+}

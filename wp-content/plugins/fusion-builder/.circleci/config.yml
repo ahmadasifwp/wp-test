@@ -1,0 +1,74 @@
+# PHP CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-php/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/php:8.0.11-zts-node-browsers-legacy
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/mysql:9.4
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "composer.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run: sudo apt-get update
+      - run: curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+      - run: sudo apt-get install nodejs
+      - run: sudo apt-get install -y build-essential
+      - run: sudo apt-get install npm
+      # - run: sudo npm install npm@latest -g
+      - run: sudo php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+      - run: sudo php composer-setup.php
+      - run: sudo php -r "unlink('composer-setup.php');"
+      - run: sudo php composer.phar self-update
+      - run: sudo mv composer.phar /usr/local/bin/composer
+      - run: sudo npm config set cache ~/npm-cache --global
+      - run: sudo npm cache clean -f
+      - run: sudo npm install -g n
+      - run: sudo n stable
+      - run: sudo npm install -g eslint
+      - run: sudo npm install postcss
+      - run: sudo npm install postcss-less
+      - run: sudo npm install stylelint
+      - run: sudo npm install stylelint-config-wordpress
+
+      - run: composer install -n --prefer-dist
+
+      - save_cache:
+          paths:
+            - ./vendor
+          key: v1-dependencies-{{ checksum "composer.json" }}
+
+      # run tests!
+      - run: eslint .
+      - run: npx stylelint .
+      - run: vendor/bin/phpcs --parallel=10 --runtime-set testVersion 5.6-
+
+      # If tests failed, try to auto-fix issues.
+      - run:
+          name: auto-fixes
+          command: |
+            set +e
+            eslint . --fix --quiet
+            npx stylelint . --fix
+            vendor/bin/phpcbf --parallel=10 --runtime-set testVersion 5.6-
+            git config user.email "cs@theme-fusion.com"
+            git config user.name CodingStandards
+            git commit -a -m "circle-ci CS auto-fixes [skip ci]"
+            git push origin ${CIRCLE_BRANCH}
+          when: on_fail

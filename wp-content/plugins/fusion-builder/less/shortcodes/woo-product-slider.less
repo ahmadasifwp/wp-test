@@ -1,0 +1,32 @@
+@import "woo-products-slider-general.less";
+
+.fusion-woo-product-slider {
+	--awb-margin-bottom: 0;
+	--awb-margin-left: 0;
+	--awb-margin-right: 0;
+	--awb-margin-top: 0;
+
+	margin: var(--awb-margin-top) var(--awb-margin-right) var(--awb-margin-bottom) var(--awb-margin-left);
+	overflow: hidden;
+	margin-bottom: 55px;
+
+	.fusion-rollover {
+		.price {
+			margin-top: 5px;
+
+			del,
+			.amount {
+				font-size: 18px;
+			}
+		}
+	}
+	.onsale {
+		top: 20px;
+		left: 15px;
+		z-index: auto;
+	}
+}
+.rtl .fusion-woo-product-slider .onsale {
+	left: auto;
+	right: 15px;
+}

@@ -1,0 +1,32 @@
+.fusion-builder-option {
+
+	&.media {
+
+		.fusion-builder-upload-preview {
+			margin-bottom: 10px;
+
+			& + .preview {
+				display: none;
+			}
+		}
+
+		.preview {
+			border: 1px dashed var(--gray-light);
+			padding: 20px;
+			margin-bottom: 10px;
+			text-align: center;
+
+			&:after {
+				display: inline-block;
+				content: "No Image Selected";
+			}
+		}
+
+		.button {
+
+			&.upload-image-remove {
+				margin-left: 5px;
+			}
+		}
+	}
+}

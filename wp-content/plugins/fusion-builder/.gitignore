@@ -1,0 +1,25 @@
+## General
+.cvs
+.htaccess
+.svn
+*.bak
+*.log
+*.swp
+*.map
+*.css.map
+
+## Windows
+Desktop.ini
+Thumbs.db
+
+## Mac
+.DS_Store
+
+## Grunt
+.sass-cache
+.sass-cache/*
+node_modules
+
+package-lock.json
+composer.lock
+vendor/*

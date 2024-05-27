@@ -1,0 +1,51 @@
+.fusion-form {
+	&-form-wrapper {
+		.form-form-submit {
+			&::before {
+				display: none;
+			}
+			&.fusion-form-working {
+				outline: 0;
+				letter-spacing: 0;
+
+				span,
+				&:hover span,
+				&:focus span,
+				&:active span {
+					color: transparent !important;
+				}
+
+				&::before {
+					content: "•••" !important;
+					display: inline-block !important;
+					letter-spacing: 0.94em;
+					position: absolute;
+					z-index: 10;
+					color: inherit;
+					text-align: center;
+					left: 0;
+					right: 0;
+					font-size: 1em;
+					line-height: 1;
+					opacity: 0.5;
+					margin-left: 1em;
+				}
+
+				&::after {
+					content: "•" !important;
+					display: inline-block !important;
+					position: absolute;
+					z-index: 10;
+					color: inherit;
+					text-align: center;
+					left: 0;
+					right: 0;
+					font-size: 1em;
+					line-height: 1;
+					margin-left: -0.86em;
+					animation: move 0.8s ease infinite;
+				}
+			}
+		}
+	}
+}

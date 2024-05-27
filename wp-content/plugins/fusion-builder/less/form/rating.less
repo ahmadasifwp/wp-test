@@ -1,0 +1,76 @@
+.fusion-form {
+	&-form-wrapper {
+		.fusion-form-field {
+			--awb-active-icon-color: var(--awb-form-focus-border-color);
+			--awb-hover-color: var(--awb-form-focus-border-hover-color);
+			--awb-icon-size: var(--body_typography-font-size);
+			--awb-icon-color: var(--awb-form-border-color);
+			.fusion-form-rating-area {
+
+				display: block;
+				direction: rtl;
+				padding: 0;
+				position: relative;
+				text-align: left;
+
+				&.rtl {
+					text-align: right;
+					direction: ltr;
+
+					.fusion-form-input {
+						left: initial;
+						right: 0;
+					}
+				}
+
+				.fusion-form-input {
+					position: absolute;
+					top: 0;
+					height: 100%;
+					width: 18px;
+					left: 0;
+					opacity: 0;
+					pointer-events: none;
+					margin: 0;
+
+					&:checked ~ label {
+						i {
+							color: var(--awb-active-icon-color);
+						}
+					}
+
+					&:checked:hover ~ label {
+						i {
+							color: var(--awb-hover-color);
+						}
+					}
+
+					&:hover ~ label {
+						i {
+							color: var(--awb-hover-color);
+						}
+					}
+				}
+
+				.fusion-form-rating-icon {
+					margin-right: 0.27em;
+					margin-top: 0;
+					margin-bottom: 0;
+					font-size: var(--awb-icon-size);
+					cursor: pointer;
+					color: var(--awb-icon-color);
+
+					i {
+						transition: all 0.2s ease;
+					}
+
+					&:hover i,
+					&:hover ~ label i {
+						color: var(--awb-hover-color);
+					}
+
+				}
+			}
+		}
+	}
+}

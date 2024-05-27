@@ -1,0 +1,147 @@
+.fusion-flex-container {
+
+	--awb-content-wrap: var(--awb-flex-wrap, wrap);
+
+	display: flex;
+	justify-content: center;
+
+	.fusion-row {
+		flex-wrap: wrap;
+		display: flex;
+		flex: 1;
+		width: 100%;
+
+		// Reset for nested rows.
+		// See https://github.com/Theme-Fusion/Fusion-Builder/issues/4445
+		.fusion-builder-row-inner {
+			flex: auto;
+			flex-grow: initial;
+			flex-shrink: initial;
+		}
+
+		&:after,
+		&:before {
+			content: none;
+		}
+		&.fusion-flex-content-wrap {
+			flex-wrap: var(--awb-content-wrap);
+		}
+		.fusion-flex-column {
+			display: flex;
+
+			.fusion-column-wrapper {
+				width: 100%;
+			}
+
+			.fusion-column-inner-bg {
+				width: auto;
+				height: auto;
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 0;
+
+				.fusion-column-anchor {
+					display: block;
+					.fusion-column-inner-bg-image {
+						display: block;
+						position: static;
+					}
+				}
+			}
+			.fusion-column-wrapper:not(.fusion-flex-column-wrapper-legacy) {
+				display: flex;
+				&.fusion-content-layout-column {
+					flex-direction: column;
+				}
+				&.fusion-content-layout-row {
+					flex-direction: row;
+					flex-wrap: wrap;
+					&.fusion-content-nowrap {
+						flex-wrap: nowrap;
+					}
+				}
+				&.fusion-content-layout-block {
+					display: block;
+				}
+			}
+		}
+	}
+
+	// Align self helpers.
+	.fusion-flex-align-self-auto {
+		align-self: auto;
+	}
+	.fusion-flex-align-self-flex-start {
+		align-self: flex-start;
+	}
+	.fusion-flex-align-self-center {
+		align-self: center;
+	}
+	.fusion-flex-align-self-flex-end {
+		align-self: flex-end;
+	}
+	.fusion-flex-align-self-stretch {
+		align-self: stretch;
+	}
+	.fusion-flex-align-self-baseline {
+		align-self: baseline;
+	}
+
+	// Align items helpers.
+	.fusion-flex-align-items-auto {
+		align-items: auto;
+	}
+	.fusion-flex-align-items-flex-start {
+		align-items: flex-start;
+	}
+	.fusion-flex-align-items-center {
+		align-items: center;
+	}
+	.fusion-flex-align-items-flex-end {
+		align-items: flex-end;
+	}
+
+	// Justify content helpers.
+	.fusion-flex-justify-content-normal {
+		justify-content: normal;
+	}
+	.fusion-flex-justify-content-flex-start {
+		justify-content: flex-start;
+	}
+	.fusion-flex-justify-content-center {
+		justify-content: center;
+	}
+	.fusion-flex-justify-content-flex-end {
+		justify-content: flex-end;
+	}
+	.fusion-flex-justify-content-space-between {
+		justify-content: space-between;
+	}
+	.fusion-flex-justify-content-space-around {
+		justify-content: space-around;
+	}
+	.fusion-flex-justify-content-space-evenly {
+		justify-content: space-evenly;
+	}
+
+	// Align content.
+	.fusion-flex-align-content-flex-start {
+		align-content: flex-start;
+	}
+	.fusion-flex-align-content-center {
+		align-content: center;
+	}
+	.fusion-flex-align-content-flex-end {
+		align-content: flex-end;
+	}
+	.fusion-flex-align-content-space-between {
+		align-content: space-between;
+	}
+	.fusion-flex-align-content-space-around {
+		align-content: space-around;
+	}
+	.fusion-flex-align-content-space-evenly {
+		align-content: space-evenly;
+	}
+}

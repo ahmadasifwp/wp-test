@@ -1,0 +1,14 @@
+/admin/.DS_Store
+.DS_Store
+/node_modules/
+/.idea/
+/log.txt
+npm-debug.log
+*.map
+/assets/fonts/fontawesome/package/*
+
+package-lock.json
+composer.lock
+vendor/*
+
+inc/redux/framework/node_modules/

@@ -1,0 +1,42 @@
+.fusion-highlight {
+	--awb-text-color: inherit;
+	--awb-background-image: none;
+	--gradient_start_color: inherit;
+
+	color: var(--awb-text-color);
+
+	&.dark {
+		--awb-text-color: #ccc;
+	}
+
+	&.awb-highlight-background {
+		--awb-color: var(--primary_color);
+
+		padding: 0.1em 0.3em;
+		line-height: 1.7em;
+		background: var(--awb-color);
+
+		&.rounded {
+			border-radius: 4px;
+			background-clip: padding-box;
+		}
+	}
+
+	&.awb-highlight-marker {
+		--awb-color: var(--primary_color);
+
+		background: linear-gradient(to top, var(--awb-color) 40%, transparent 40%);
+	}
+
+	&.awb-gradient-text {
+		background-color: var(--gradient_start_color);
+		background-image: var(--awb-background-image);
+	}
+
+	&.fusion-text-has-stroke {
+		--awb-text-stroke-size: 1px;
+		--awb-text-stroke-color: var(--primary_color);
+
+		-webkit-text-stroke: var(--awb-text-stroke-size) var(--awb-text-stroke-color);
+	}
+}

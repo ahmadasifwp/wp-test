@@ -1,0 +1,61 @@
+@import "variables.less";
+
+.ls-container {
+
+	.button,
+	.fusion-button {
+		transition: none !important;
+
+		&:hover {
+			transition: none !important;
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	.ls-container .button,
+	.ls-container .fusion-button,
+	.rev_slider .button,
+	.rev_slider .fusion-button {
+		.button-dimensions(32px, 20px, 0, 30px, 12px, 2px);
+		font-size: 10px !important;
+		line-height: 30px !important;
+		padding: 0 20px !important;
+
+		&.button-3d:active {
+			top: 2px !important;
+		}
+	}
+
+	.ls-container .button span,
+	.ls-container .fusion-button span,
+	.rev_slider .button span,
+	.rev_slider .fusion-button span {
+		font-size: 10px !important;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+
+	.ls-container .button,
+	.ls-container .fusion-button,
+	.rev_slider .button,
+	.rev_slider .fusion-button {
+		.button-dimensions(32px, 20px, 0, 20px, 10px, 2px);
+		font-size: 10px !important;
+		line-height: 20px !important;
+		padding: 0 10px !important;
+
+		&.button-3d:active {
+			top: 2px !important;
+		}
+	}
+
+	.ls-container .button span,
+	.ls-container .fusion-button span,
+	.rev_slider .button span,
+	.rev_slider .fusion-button span {
+		font-size: 10px !important;
+	}
+}

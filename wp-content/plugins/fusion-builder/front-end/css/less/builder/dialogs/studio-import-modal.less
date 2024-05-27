@@ -1,0 +1,136 @@
+/* Studio Import Modal */
+
+.awb-admin-modal-wrap {
+	position: fixed;
+	top: 40%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	max-width: 600px;
+	margin: auto;
+	overflow: visible;
+	box-sizing: border-box;
+	z-index: 99999;
+}
+
+.awb-admin-modal-wrap.demo-import-in-progress .demo-update-form-wrap {
+	pointer-events: none;
+}
+
+.awb-admin-modal-inner {
+	max-height: 100%;
+	overflow-y: hidden;
+	border-radius: 5px;
+	background: var(--white);
+}
+
+.awb-admin-modal-content {
+	padding: 30px 20px;
+
+	border-left: 1px solid var(--border-color);
+	border-right: 1px solid var(--border-color);
+	color: var(--gray-dark);
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+@media screen and (min-height: 851px) {
+
+	.awb-admin-modal-inner .demo-modal-thumbnail {
+		height: 300px;
+	}
+}
+
+.awb-admin-modal-corner-close {
+	display: block;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+
+	color: var(--gray);
+	border-radius: 50%;
+	border: 1px solid var(--border-color);
+	background-color: var(--white);
+
+}
+
+.awb-admin-modal-corner-close:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.awb-admin-modal-corner-close .dashicons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	font-size: 22px;
+}
+
+.awb-admin-modal-wrap .awb-studio-modal-title {
+	display: flex;
+	align-items: center;
+	margin: 0 -7.5px 20px -7.5px;
+}
+
+.awb-admin-modal-wrap .awb-studio-modal-title i {
+	margin: 0 7.5px;
+	color: var(--blue);
+}
+
+.awb-admin-modal-wrap .awb-studio-modal-title span {
+	margin: 0 7.5px;
+}
+
+.awb-admin-modal-wrap .awb-studio-modal-text {
+	line-height: 1.7;
+}
+
+.awb-admin-modal-status-bar {
+	height: 55px;
+	background-color: var(--blue);
+	position: relative;
+}
+
+.awb-admin-modal-status-bar-label {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+	color: var(--white);
+	text-transform: capitalize;
+}
+
+.awb-admin-modal-status-bar-progress-bar {
+	position: absolute;
+	z-index: 0;
+	top: 0;
+	bottom: 0;
+	background-color: var(--blue-active);
+}
+
+.awb-modal-overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	background-color: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+
+	// display: none;
+}

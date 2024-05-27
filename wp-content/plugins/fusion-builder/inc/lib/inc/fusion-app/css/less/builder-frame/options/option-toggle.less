@@ -1,0 +1,152 @@
+.fusion-builder-option {
+
+	&.toggle {
+
+		.toggle-row {
+			padding: 0;
+			border: 1px solid var(--border-color);
+			border-radius: 4px !important;
+			box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.06);
+			background: var(--white);
+			transition: 0.2s all;
+
+			&:hover {
+				box-shadow: 0 1px 4px 2px rgba(0, 0, 0, 0.08);
+				transition: 0.2s all;
+			}
+
+			.fusion-builder-option.radio-buttonset .fusion-form-radio-button-set.ui-buttonset a.ui-button:not(.ui-state-active) {
+				background: var(--white);
+			}
+
+			.toggle-title {
+				margin: 0;
+				padding: 10px;
+				position: relative;
+				cursor: pointer;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				h3 {
+					display: inline-block;
+					margin: 0 !important;
+					text-transform: capitalize;
+				}
+
+				.toggle-toggle-icon {
+					cursor: pointer;
+					font-size: 14px;
+					color: var(--gray-light);
+					max-width: 20px;
+					width: 100%;
+					text-align: center;
+
+					&:hover {
+						color: var(--blue);
+					}
+				}
+			}
+
+			.toggle-fields {
+				padding: 30px 20px;
+				padding-top: 0;
+				margin: 0;
+				list-style: none;
+				display: none;
+				background: var(--gray-bg);
+				border-top: 1px solid var(--border-color-dark);
+
+				> li {
+					margin: 26px 0 0 0;
+					width: 100%;
+
+					.option-field {
+
+						input {
+							margin: 0;
+						}
+					}
+
+					.option-details {
+
+						h3 {
+							margin: 0 0 12px 0;
+							line-height: 1;
+						}
+
+						.description {
+							font-size: 12px;
+							color: var(--gray-light);
+							margin: 0 0 12px 0;
+							display: block;
+						}
+					}
+
+					.fusion-builder-option {
+
+						.select2-container {
+
+							.select2-selection {
+								box-shadow: 0 0 1px rgba(102, 113, 123, 0.26);
+							}
+						}
+					}
+				}
+			}
+
+			&.ui-sortable-placeholder {
+				background: var(--gray-bg) !important;
+				border: 1px dashed var(--border-color-dark) !important;
+				visibility: visible !important;
+				box-shadow: none;
+				padding-left: 0;
+				padding-right: 0;
+				animation: none;
+				display: block;
+				height: 40px;
+			}
+		}
+	}
+
+	.option-field {
+
+		.toggle-row-add {
+			background: var(--blue);
+			color: var(--white);
+			box-shadow: none;
+			border: none;
+			padding: 8px 20px;
+			font-family: var(--family-stack);
+			font-weight: 600;
+			margin: 0 0 20px 0;
+			border-radius: 3px;
+			height: auto;
+			display: flex;
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+			text-shadow: none;
+			font-size: 14px;
+			line-height: 26px;
+			transition: 0.2s all;
+
+			span.fusiona-plus {
+
+				.ltr & {
+					margin: 0 5px 0 0;
+				}
+
+				.rtl & {
+					margin: 0 0 0 5px;
+				}
+			}
+
+			&:hover,
+			&:focus {
+				background: var(--blue);
+				transition: 0.2s all;
+			}
+		}
+	}
+}

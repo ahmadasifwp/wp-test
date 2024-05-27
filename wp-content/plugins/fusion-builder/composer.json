@@ -1,0 +1,27 @@
+{
+  "name": "theme-fusion/fusion-builder",
+  "type": "wordpress-plugin",
+  "description": "Page Builder",
+  "homepage": "https://avada.com",
+  "license": "GPLv2 or later",
+  "require": {
+    "php": ">=5.2",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8",
+    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "phpcompatibility/phpcompatibility-wp":"*",
+    "wp-coding-standards/wpcs": "*",
+    "sirbrillig/phpcs-variable-analysis": "^2.8",
+    "phpstan/phpstan": "^1.4",
+    "szepeviktor/phpstan-wordpress": "^1.0",
+    "php-stubs/woocommerce-stubs": "^6.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

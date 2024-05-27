@@ -1,0 +1,58 @@
+# - Full paths from wp-content folder are added for all folders/files because the
+# VSCode plugin runs the config file from main workspace.
+includes:
+  # WordPress
+  - vendor/szepeviktor/phpstan-wordpress/extension.neon
+parameters:
+  level: 0
+
+  paths:
+    # Builder
+    - ../../plugins/fusion-builder/fusion-builder.php
+    - ../../plugins/fusion-builder/inc
+    - ../../plugins/fusion-builder/shortcodes
+    - ../../plugins/fusion-builder/front-end
+
+  scanDirectories:
+    # Avada
+    - ../../themes/Avada/includes
+    # Library
+    - ../../plugins/fusion-library/inc
+    # Core
+    - ../../plugins/fusion-core/includes
+    - ../../plugins/fusion-core/shortcodes
+    - ../../plugins/fusion-core/templates
+    - ../../plugins/fusion-core/fusion-slider
+  scanFiles:
+    - ../../themes/Avada/functions.php
+    - ../../plugins/fusion-library/fusion-library.php
+    - ../../plugins/fusion-core/fusion-core.php
+    # WooCommerce
+    - %rootDir%/../../php-stubs/woocommerce-stubs/woocommerce-stubs.php
+
+  # Remove Builder Library
+  excludePaths:
+    - ../../themes/Avada/includes/lib
+    - ../../plugins/fusion-builder/inc/lib
+
+  reportUnmatchedIgnoredErrors: false
+  ignoreErrors:
+    # Do not error when array type is not declared in @param or @return docblock.
+    - '#has parameter [^\\s]* with no value type specified in iterable type array.#'
+    - '#return type has no value type specified in iterable type array.#'
+    # Constants require to be declared in a bootstrap file in phpstan rules.
+    - '#Constant [^\\s]* not found.#'
+
+    # Ignore static self template variable.
+    - '#Calling self::[^\\s]*.*outside of class scope#'
+    - '#Accessing self::[^\\s]*.*outside of class scope#'
+
+    # This is meant to not report usage of classes/functions/methods from plugins.
+    # Ignore non-avada classes/functions that doesn't exists, more like an whitelist for avada functions.
+    # For the moment, ignore those that don't begin with 'awb', 'fusion', 'avada'.. etc.
+    - '#^Function (?!awb|fusion|avada).*? not found#'
+    - '#^Instantiated class (?!awb|fusion|avada).*? not found#'
+    - '#^Access to property .*? on an unknown class (?!awb|fusion|avada).*?#'
+    - '#^Call to (static )?method .*? on an unknown class (?!awb|fusion|avada).*?#'
+    - '#^Access to constant .*? on an unknown class (?!awb|fusion|avada).*?#'
+    - '#^Class (?!awb|fusion|avada|ajax).*? not found#'

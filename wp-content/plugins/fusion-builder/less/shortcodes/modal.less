@@ -1,0 +1,224 @@
+@import "variables.less";
+
+@modal-inner-padding: 20px; // Padding applied to the modal body
+@modal-title-padding: 15px; // Padding applied to the modal title
+@modal-title-line-height: @line-height-base; // Modal title line-height
+@modal-content-bg: #fff; // Background color of modal content area
+@modal-content-border-color: rgba(0, 0, 0, 0.2); // Modal content border color
+@modal-content-fallback-border-color: #999; // Modal content border color **for IE8**
+@modal-backdrop-bg: #000; // Modal backdrop background color
+@modal-backdrop-opacity: 0.5; // Modal backdrop opacity
+@modal-header-border-color: #e5e5e5; // Modal header border color
+@modal-footer-border-color: @modal-header-border-color; // Modal footer border color
+@zindex-modal: 99999;
+@zindex-modal-background: 99998;
+@modal-lg: 900px;
+@modal-md: 600px;
+@modal-sm: 300px;
+@modal-border-radius: 5px;
+
+// Kill the scroll on the body
+.modal-open {
+	overflow: hidden;
+}
+
+// Container that the modal scrolls within
+.modal {
+	display: none;
+	overflow: auto;
+	overflow-y: scroll;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: @zindex-modal;
+	-webkit-overflow-scrolling: touch;
+
+	// When fading in the modal, animate it to slide down
+	&.fade .modal-dialog {
+		.translate(0, -25%);
+		.transition-transform(~"0.3s ease-out");
+	}
+
+	&.in .modal-dialog {
+		.translate(0, 0);
+	}
+}
+
+.fusion-disable-outline {
+	.modal {
+		// Prevent Chrome on Windows from adding a focus outline. For details, see
+		// https://github.com/twbs/bootstrap/pull/10951.
+		outline: 0;
+	}
+}
+
+// Shell div to position the modal with bottom padding
+.modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+	margin-top: 60px;
+}
+
+// Actual modal
+.modal-content {
+	position: relative;
+	background-color: var(--awb-background, @modal-content-bg);
+	border: 1px solid @modal-content-border-color;
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	background-clip: padding-box;
+	// Remove focus outline from opened modal
+	outline: none;
+}
+
+// Modal background
+.modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: @zindex-modal-background;
+	background-color: @modal-backdrop-bg;
+
+	// Fade for backdrop
+	&.fade {
+		.opacity(0);
+	}
+
+	&.in {
+		.opacity(@modal-backdrop-opacity);
+	}
+}
+
+// Modal header
+// Top section of the modal w/ title and dismiss
+.modal-header {
+	padding: 15px 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: var(--awb-border-color, @modal-header-border-color);
+	min-height: (@modal-title-padding + @modal-title-line-height);
+}
+
+// Close icon
+.modal-header .close {
+	margin-top: -2px;
+}
+
+// Title text within header
+.modal-title {
+	margin: 0;
+	padding: 0;
+	line-height: @modal-title-line-height;
+}
+
+// Modal body
+// Where all modal content resides (sibling of .modal-header and .modal-footer)
+.modal-body {
+	position: relative;
+	padding: @modal-inner-padding;
+}
+
+// Footer (for actions)
+.modal-footer {
+	margin-top: 15px;
+	padding: (@modal-inner-padding - 1) @modal-inner-padding @modal-inner-padding;
+	text-align: right; // right align buttons
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-color: var(--awb-border-color, @modal-footer-border-color);
+	&:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons
+
+	// Properly space out buttons
+	.btn + .btn {
+		margin-left: 5px;
+		margin-bottom: 0; // account for input[type="submit"] which gets the bottom margin like all other inputs
+	}
+
+	// but override that for button groups
+	.btn-group .btn + .btn {
+		margin-left: -1px;
+	}
+
+	// and override it for block buttons as well
+	.btn-block + .btn-block {
+		margin-left: 0;
+	}
+}
+
+// Scale up the modal
+//@media (min-width: @screen-sm-min) {
+@media (min-width: @modal-screen-min) {
+
+	// Automatically set modal's width for larger viewports
+	.modal-dialog {
+		width: @modal-md;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.modal-content {
+		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+	}
+
+	// Modal sizes
+	.modal-sm {
+		width: @modal-sm;
+	}
+
+	.modal-lg {
+		width: @modal-lg;
+	}
+
+}
+
+.fusion-modal {
+	-webkit-overflow-scrolling: auto !important;
+
+	.modal-header {
+		min-height: 54px;
+		box-sizing: border-box;
+
+		.modal-title {
+			clear: left;
+		}
+
+		.close {
+			font-size: 30px;
+			margin-top: -5px;
+			text-shadow: none;
+		}
+	}
+
+	.modal-dialog {
+		-webkit-overflow-scrolling: touch;
+		overflow-y: auto;
+		max-height: ~"calc(100% - 90px)";
+	}
+
+	.fusion-separator {
+		width: 100% !important;
+	}
+
+	&.has-light-close {
+		.close {
+			color: #fff;
+			opacity: 0.35;
+		}
+	}
+}
+
+.ua-mobile {
+	.modal-open {
+		position: fixed;
+		overflow: hidden;
+
+		.fusion-modal .modal-dialog {
+			height: 90%;
+		}
+	}
+}

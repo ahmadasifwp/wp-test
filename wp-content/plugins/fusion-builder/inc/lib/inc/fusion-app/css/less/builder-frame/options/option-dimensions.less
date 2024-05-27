@@ -1,0 +1,94 @@
+.fusion-builder-option {
+
+	&.dimension,
+	&.dimensions,
+	&.spacing,
+	&.border_radius {
+
+		.option-field {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+
+			.fusion-builder-dimension {
+				width: 46%;
+				display: flex;
+				flex-flow: wrap;
+				margin-bottom: 10px;
+
+				.add-on,
+				input {
+					align-self: center;
+					margin-bottom: 0;
+				}
+
+				input {
+					border: none;
+					border-left: 1px solid var(--border-color);
+				}
+
+				.add-on {
+					width: 25px;
+					text-align: center;
+
+					.dashicons {
+						font-size: 13px;
+						line-height: 1.5em;
+					}
+				}
+			}
+		}
+
+		.multi-builder-dimension {
+			width: 100%;
+			display: flex;
+			margin-right: -5px;
+			margin-left: -5px;
+			margin-bottom: -20px;
+
+			.fusion-builder-dimension {
+				width: 100%;
+				margin-bottom: 20px;
+				margin-right: 5px;
+				margin-left: 5px;
+
+				input {
+					padding: 0 10px;
+					border: 1px solid var(--border-color);
+					border-radius: 4px;
+					font-size: 14px;
+					font-weight: 400;
+					color: var(--gray-dark);
+					background: var(--white);
+					outline: 0;
+
+					&:focus,
+					&:hover {
+						border-color: var(--blue);
+					}
+
+					&::placeholder {
+						color: var(--gray-light);
+					}
+				}
+
+				label {
+					color: var(--gray-light);
+					font-size: 11px;
+					font-weight: 700;
+					letter-spacing: 1px;
+					margin-bottom: 7px;
+					text-transform: uppercase;
+				}
+			}
+
+			&#border_radius,
+			&#submenu_border_radius {
+
+				label {
+					letter-spacing: 0.5px;
+				}
+			}
+		}
+	}
+}

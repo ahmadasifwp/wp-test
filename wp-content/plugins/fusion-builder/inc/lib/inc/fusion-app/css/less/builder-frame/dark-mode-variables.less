@@ -1,0 +1,723 @@
+/* stylelint-disable selector-class-pattern */
+/* stylelint-disable no-eol-whitespace */
+:root,
+.dark-mode .fusion-builder-live-toolbar,
+.dark-mode .ui-dialog-titlebar,
+.dark-mode .ui-buttonset .ui-state-active,
+.dark-mode .fusion-tabs-menu,
+.dark-mode .fusion-builder-modal-search,
+.dark-mode .awb-import-studio-item,
+.dark-mode .fusion-elements-option-tooltip,
+.dark-mode .column-width-toggle-container .ui-button.ui-state-active,
+.dark-mode .fusion-builder-element-button-save,
+.dark-mode .fusion-builder-layout-button-save,
+.dark-mode #wp-link-wrap,
+.dark-mode .fusion-builder-option.switch input.switch-input:checked ~ .switch-label .yes,
+.dark-mode .fusion-builder-option.switch input.switch-input:not(:checked) ~ .switch-label .no,
+.dark-mode .awb-import-options .awb-import-options-group .awb-option-item input ~ label:before,
+.dark-mode .awb-import-options .awb-import-options-group .awb-option-item input ~ label:after,
+.dark-mode .fusion-builder-option-container .fusion-upload-area:not([data-mode="file"]):not(.fusion-upload-media-type-audio) .fusion-upload-btn,
+.dark-mode .fusion-builder-option-container .fusion-upload-area:not([data-mode="file"]):not(.fusion-upload-media-type-audio).fusion-uploaded-image .fusion-uploaded-area .fusion-uploded-image-options li a {
+	--white: #fff;
+	--border-color: #e0e3e7;
+	--border-color-dark: #e8e9eb;
+	--blue: #198fd9;
+	--blue-hover: #1081c7;
+	--blue-active: #0e7abd;
+	--light-blue: rgba(25, 143, 217, 0.07);
+	--gray-bg: #f2f3f5;
+	--gray: #616970;
+	--gray-light: #93999f;
+	--gray-dark: #2a3035;
+	--gray-off: #2a3035;
+	--gray-dark-alt: #373e44;
+	--gray-dark-border: #3f464c;
+	--overlay: rgba(255, 255, 255, 0.8);
+	--family-stack: "Noto Sans", roboto, "Open Sans", -apple-system, blinkmacsystemfont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+	--failure: #e0284f;
+	--success: #14c983;
+	--scroll-bg: #fff;
+	--scroll-accent: #616970;
+
+	--awb-builder-nav__item-hover-bg: rgba(25, 143, 217, 0.15);
+}
+
+
+.dark-mode .subgroup .ui-buttonset .ui-state-active,
+.dark-mode #customize-controls .ui-dialog-titlebar,
+.dark-mode {
+	--white: #1d2226;
+	--white-plain: #fff;
+	--type-warning: #eeaf27;
+	--border-color: #2a3034;
+	--border-color-dark: #2a3034;
+	--blue: #58a6ff;
+	--blue-hover: #3295d3;
+	--blue-active: #3e9dd9;
+	--light-blue: rgba(25, 143, 217, 0.07);
+	--gray-bg: #2a3035;
+	--gray: #bfc4c8;
+	--gray-light: #bababa;
+	--gray-dark: #e1e1e1;
+	--gray-dark-alt: #373e44;
+	--gray-dark-border: #3f464c;
+	--gray-off: #000;
+	--overlay: rgba(0, 0, 0, 0.8);
+	--scroll-bg: #1d2226;
+	--scroll-accent: #3f464c;
+
+	--awb-builder-nav__item-hover-bg: rgba(0, 0, 0, 0.25);
+}
+
+.dark-mode {
+	background: var(--white);
+
+	.quicktags-toolbar {
+		background: var(--gray-bg);
+		border-color: var(--border-color);
+
+		input {
+			background: var(--white) !important;
+			color: var(--gray-dark) !important;
+			border-color: var(--border-color) !important;
+		}
+	}
+
+	.ui-dialog {
+
+		.fusion-builder-bulk-add-dialog {
+
+			.fusion-builder-bulk-sections {
+
+				textarea {
+					background-color: var(--gray-bg);
+					color: var(--white-plain);
+				}
+			}
+		}
+	}
+
+	.awb-typography {
+
+		.awb-typo-heading {
+
+			.awb-global {
+
+				&.open,
+				&:hover {
+					color: var(--white-plain) !important;
+				}
+			}
+		}
+
+		.radio-button-set {
+
+			.ui-button {
+
+				&.ui-state-active {
+					background-color: var(--blue) !important;
+					color: var(--white-plain) !important;
+				}
+			}
+		}
+	}
+
+	.fusion-form-radio-button-set {
+
+		.ui-state-active {
+			--gray-off: #000;
+		}
+	}
+
+	.fusion-builder-option.switch input.switch-input:not(:checked) ~ .switch-label .no {
+		--gray-off: #000;
+	}
+
+	.awb-picker-global {
+
+		.awb-global-bar .advanced-edit:hover,
+		.awb-global-bar .edit-globals:hover {
+			color: var(--white-plain) !important;
+		}
+
+		.advanced-color > div input {
+			background: var(--white);
+			color: var(--gray-dark);
+			border-color: var(--border-color);
+		}
+
+		.advanced-color {
+			border-top-color: var(--border-color);
+		}
+
+		.awb-global-palette .palette.active:before {
+			border-color: #000 !important;
+			box-shadow: 0 0 0 2px #000;
+		}
+	}
+
+	.button-primary,
+	.button-link-selector:hover,
+	.fusion-builder-add-sortable-child,
+	.awb-picker-button,
+	.fusion-builder-add-multi-child + a,
+	.fusion-builder-chart-button,
+	.fusion-builder-layout-button-save,
+	#customize-controls .fusion-empty-section i,
+	#customize-controls .fusion-builder-toggles a:not(.fusion-active):hover,
+	.awb-import-studio-item-in-preview,
+	.awb-option-button,
+	.fusion-builder-upload-button,
+	.fusion-builder-add-multi-child,
+	.fusion-builder-add-predefined-multi-child,
+	.iconpicker .fusion-iconpicker-preview .add-custom-icons,
+	.awb-admin-modal-status-bar,
+	.awb-quick-edit-button,
+	.fusion-multiselect-addnew,
+	.fusion-builder-settings-dialog.ui-dialog .ui-button:first-child,
+	.fusion-form-multiple-select .fusion-select-options .fusion-select-label:before {
+		--blue: #198fd9;
+		--blue-hover: #1081c7;
+		--blue-active: #0e7abd;
+		--white: #fff;
+	}
+
+	.fusion-builder-upload-button-multiple-upload {
+		color: var(--white) !important;
+		background: var(--blue) !important;
+
+		&:hover {
+			background-color: var(--blue-hover) !important;
+		}
+	}
+
+	#fusion-table-builder-chart-edit-table,
+	.fusion-ajax-select .fusion-ajax-select-notice,
+	.awb-picker-global.show-advanced .advanced-edit {
+		color: var(--white-plain);
+	}
+
+	#customize-controls #fusion-builder-sections-eo .ui-dialog-titlebar,
+	.awb-picker-container .awb-color-result:before {
+		border-color: #000;
+	}
+
+	.fusion-child-sortables {
+		color: var(--gray-dark);
+	}
+
+	.awb-typography-sets {
+
+		li {
+			border-color: var(--border-color);
+		}
+
+		.awb-set-title {
+
+			.actions {
+
+				span.fusiona-pen:hover {
+					color: var(--gray-dark);
+				}
+			}
+
+			.label {
+				color: var(--gray-dark);
+			}
+		}
+	}
+
+	.ui-widget-content a:not(.fusion-builder-add-multi-child, .fusion-builder-add-multi-gallery-images) {
+		color: var(--blue);
+	}
+
+	.awb-picker-outer {
+
+		&.awb-global-set {
+
+			.awb-picker-container {
+
+				.awb-picker-button {
+					background-color: var(--blue) !important;
+					color: var(--white-plain) !important;
+				}
+			}
+		}
+	}
+
+	.awb-global-label:not(.awb-global-label-error),
+	.awb-picker-button {
+		color: var(--white-plain) !important;
+		background: var(--gray-bg) !important;
+		border-color: var(--border-color) !important;
+	}
+
+	.awb-typography .radio-button-set .ui-button,
+	.fusion-select-field .fusion-select-search input[type="text"],
+	.awb-picker-global,
+	.awb-picker-wrap .iris-picker,
+	.fusion-builder-option.link_selector .button-link-selector:not(:hover) {
+		background: var(--gray-bg) !important;
+		color: var(--gray-light) !important;
+	}
+
+	.fusion-typography-select-wrapper {
+
+		select {
+			background: var(--white) !important;
+			border-color: var(--border-color);
+			color: var(--gray-light) !important;
+		}
+
+		&:hover {
+
+			.fusiona-arrow-down {
+				color: var(--white-plain);
+			}
+		}
+	}
+
+	.fusion-builder-option {
+
+		.fusion-builder-option-logics {
+
+			.options-grid {
+
+				.fusion-logic .logic-comparison-dropdown {
+
+					.logic-comparison-selection {
+						background: var(--white);
+						color: var(--white-plain);
+					}
+				}
+
+				.fusion-logic {
+
+					.fusion-logic-controller-head {
+
+						h4 {
+							color: var(--white-plain);
+						}
+					}
+
+					&.has-or:before {
+						color: var(--white-plain);
+					}
+				}
+			}
+		}
+
+		&.hubspot_consent_map,
+		&.hubspot_map,
+		&.mailchimp_map {
+
+			.form-input-entry {
+
+				label {
+					color: var(--white-plain);
+				}
+			}
+		}
+
+		&.colorpickeralpha,
+		&.typography,
+		&.color-alpha {
+
+			.awb-picker-global {
+				border-color: var(--gray-bg);
+
+				.awb-global-palette {
+
+					span {
+
+						&:after {
+							background-color: var(--white);
+						}
+					}
+				}
+			}
+		}
+
+		&.code {
+
+			.option-field {
+
+				.CodeMirror {
+
+					textarea {
+						color: var(--white-plain);
+					}
+				}
+			}
+		}
+
+		&.column_width,
+		&.radio_button_set,
+		&.checkbox_button_set {
+
+			.option-field {
+
+				.ui-buttons,
+				.ui-buttonset {
+
+					.ui-button {
+
+						&:after {
+							background-color: var(--gray-dark-alt);
+							border-color: var(--gray-dark-alt);
+						}
+
+						&:before {
+							border-bottom-color: var(--gray-dark-alt);
+						}
+					}
+				}
+			}
+		}
+
+		&.radio_button_set .ui-buttonset.fusion-form-radio-button-set-grid-layout a.ui-button.has-tooltip:before {
+			border-top-color: var(--gray-dark-alt) !important;
+		}
+
+		.form-options-settings {
+
+			.bulk-add-modal {
+				color: var(--white-plain) !important;
+				background: var(--gray-bg) !important;
+				border-color: var(--white) !important;
+			}
+
+			.toggle-values {
+				color: var(--white-plain);
+			}
+		}
+	}
+
+	.awb-picker-global .awb-global-sets {
+		border-top-color: var(--border-color);
+	}
+
+	.fusion-sidebar-section {
+
+		.fusion-tabs {
+
+			.fusion-builder-option {
+
+				&:hover {
+
+					.fusion-panel-options li i {
+						background-image: linear-gradient(to top, var(--white-plain), var(--white-plain) 50%, var(--blue) 50%);
+					}
+				}
+			}
+
+			li {
+
+				ul.fusion-panel-options {
+
+					li {
+
+						ul.fusion-responsive-options,
+						ul.fusion-state-options {
+							background-color: var(--gray-bg) !important;
+
+							li {
+
+								a {
+
+									i {
+										background-image: linear-gradient(to top, var(--white-plain), var(--white-plain) 50%, var(--white-plain) 50%) !important;
+									}
+
+									&:hover {
+										background-color: var(--gray-dark-alt) !important;
+									}
+								}
+							}
+
+							&:before {
+								border-bottom-color: var(--gray-bg) !important;
+							}
+						}
+					}
+				}
+			}
+
+			.fusion-builder-module-settings {
+
+				.fusion-slider-container {
+
+					.noUi-base {
+
+						.noUi-origin {
+							background: var(--gray-bg);
+						}
+					}
+				}
+			}
+		}
+
+		.option-details {
+
+			.option-details-inner {
+
+				h3 {
+					color: var(--white-plain);
+				}
+			}
+		}
+
+		.awb-picker-wrap {
+
+			.iris-picker {
+				border-color: var(--border-color);
+			}
+		}
+	}
+
+	.fusion-builder-main-settings {
+
+		.fusion-table-builder-chart {
+
+			.colorpickeralpha {
+
+				.option-field {
+					background: var(--gray-bg);
+
+					.iris-picker {
+						background: var(--white) !important;
+						border-color: var(--white) !important;
+					}
+				}
+			}
+		}
+	}
+
+	.fusion_builder_modal_settings {
+
+		.fusion-save-element-fields {
+
+			.fusion-builder-save-element-input {
+				background: var(--gray-bg);
+				color: var(--white-plain);
+				outline: 0;
+			}
+
+			.save-as-global {
+				border: 1px solid var(--white-plain);
+				background: transparent;
+
+				label {
+
+					input {
+						background: var(--white-plain);
+					}
+				}
+			}
+
+			.fusion-builder-save-column {
+				color: var(--white-plain) !important;
+			}
+		}
+	}
+
+	#fusion-builder-confirmation-modal {
+		background: var(--white);
+
+		.inner {
+
+			.type-warning {
+				background-color: var(--type-warning);
+				color: var(--white-plain);
+			}
+
+			.title {
+				color: var(--white-plain);
+			}
+
+			.content {
+				color: var(--gray-dark);
+			}
+		}
+
+		.actions {
+			background: var(--gray-bg);
+		}
+	}
+
+	.fusion-select-field .fusion-select-dropdown .fusion-select-options,
+	.awb-picker-global .awb-global-sets {
+		scrollbar-color: var(--scroll-accent) var(--scroll-bg);
+	}
+
+	.fusion-widget-settings-form {
+
+		.widget-inside {
+			background-color: transparent;
+		}
+
+		.tribe-widget-form-control {
+			border-color: var(--gray-bg);
+		}
+
+		.tribe-widget-form-control__legend,
+		.tribe-widget-form-control__section-title {
+			color: var(--gray-dark);
+		}
+	}
+
+	// Ayu mirrage theme for code mirror with some modifications.
+	.cm-s-default.CodeMirror {
+		background: var(--white);
+		color: #cbccc6;
+		border-color: var(--border-color);
+	}
+
+	.cm-s-default div.CodeMirror-selected {
+		background: #34455a;
+	}
+
+	.cm-s-default .CodeMirror-line::selection,
+	.cm-s-default .CodeMirror-line > span::selection,
+	.cm-s-default .CodeMirror-line > span > span::selection {
+		background: #34455a;
+	}
+
+	.cm-s-default .CodeMirror-line::-moz-selection,
+	.cm-s-default .CodeMirror-line > span::-moz-selection,
+	.cm-s-default .CodeMirror-line > span > span::-moz-selection {
+		background: rgba(25, 30, 42, 99);
+	}
+
+	.cm-s-default .CodeMirror-gutters {
+		background-color: var(--border-color);
+		border-color: var(--border-color);
+		border-right: 0;
+	}
+
+	.cm-s-default .CodeMirror-guttermarker {
+		color: white;
+	}
+
+	.cm-s-default .CodeMirror-guttermarker-subtle {
+		color: rgba(112, 122, 140, 66);
+	}
+
+	.cm-s-default .CodeMirror-linenumber {
+		color: rgba(61, 66, 77, 99);
+	}
+
+	.cm-s-default .CodeMirror-cursor {
+		border-left: 1px solid #fc6;
+	}
+
+	.cm-s-default.cm-fat-cursor .CodeMirror-cursor {
+		background-color: #a2a8a175 !important;
+	}
+
+	.cm-s-default .cm-animate-fat-cursor {
+		background-color: #a2a8a175 !important;
+	}
+
+	.cm-s-default span.cm-comment {
+		color: #5c6773;
+		font-style: italic;
+	}
+
+	.cm-s-default span.cm-atom {
+		color: #ae81ff;
+	}
+
+	.cm-s-default span.cm-number {
+		color: #fc6;
+	}
+
+	.cm-s-default span.cm-comment.cm-attribute {
+		color: #ffd580;
+	}
+
+	.cm-s-default span.cm-comment.cm-def {
+		color: #d4bfff;
+	}
+
+	.cm-s-default span.cm-comment.cm-tag {
+		color: #5ccfe6;
+	}
+
+	.cm-s-default span.cm-comment.cm-type {
+		color: #5998a6;
+	}
+
+	.cm-s-default span.cm-property {
+		color: #f29e74;
+	}
+
+	.cm-s-default span.cm-attribute {
+		color: #ffd580;
+	}
+
+	.cm-s-default span.cm-keyword {
+		color: #ffa759;
+	}
+
+	.cm-s-default span.cm-builtin {
+		color: #fc6;
+	}
+
+	.cm-s-default span.cm-string {
+		color: #bae67e;
+	}
+
+	.cm-s-default span.cm-variable {
+		color: #cbccc6;
+	}
+
+	.cm-s-default span.cm-variable-2 {
+		color: #f28779;
+	}
+
+	.cm-s-default span.cm-variable-3 {
+		color: #5ccfe6;
+	}
+
+	.cm-s-default span.cm-type {
+		color: #ffa759;
+	}
+
+	.cm-s-default span.cm-def {
+		color: #ffd580;
+	}
+
+	.cm-s-default span.cm-bracket {
+		color: rgba(92, 207, 230, 80);
+	}
+
+	.cm-s-default span.cm-tag {
+		color: #5ccfe6;
+	}
+
+	.cm-s-default span.cm-header {
+		color: #bae67e;
+	}
+
+	.cm-s-default span.cm-link {
+		color: #5ccfe6;
+	}
+
+	.cm-s-default span.cm-error {
+		color: #f33;
+	}
+
+	.cm-s-default .CodeMirror-activeline-background {
+		background: #191e2a;
+	}
+
+	.cm-s-default .CodeMirror-matchingbracket {
+		text-decoration: underline;
+		color: white !important;
+	}
+
+	.cm-s-default span.cm-qualifier {
+		color: #3ad900;
+	}
+}

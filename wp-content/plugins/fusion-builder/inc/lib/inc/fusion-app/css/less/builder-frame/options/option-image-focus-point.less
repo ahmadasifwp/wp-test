@@ -1,0 +1,139 @@
+.fusion-image-focus-point {
+
+	.preview {
+		position: relative;
+
+		img {
+			max-width: 100%;
+			max-height: 300px;
+			border-radius: 4px;
+			background-image: linear-gradient(45deg, #c4c4c4 25%, transparent 25%, transparent 75%, #c4c4c4 75%, #c4c4c4), linear-gradient(45deg, #c4c4c4 25%, transparent 25%, transparent 75%, #c4c4c4 75%, #c4c4c4);
+			background-position: 0 0, 10px 10px;
+			background-size: 20px 20px;
+		}
+
+	}
+
+	.point {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		background-color: var(--blue);
+		border-radius: 50%;
+		box-shadow: 2px 2px 4px #0000008f;
+		margin: -10px -10px -10px -10px;
+		cursor: grab;
+		cursor: -webkit-grab;
+		z-index: 10;
+	}
+
+	.no-image-holder {
+		display: flex;
+		height: 170px;
+		width: 100%;
+		border: 2px dashed var(--gray-light);
+		align-items: center;
+		justify-content: center;
+		font-size: 130px;
+		color: var(--gray-light);
+	}
+
+	// Position Mode.
+	&.mode-position {
+
+		.preview {
+			height: 200px;
+			border: 2px solid var(--blue);
+		}
+
+		.position-point {
+			width: 12px;
+			height: 12px;
+			background: #fff;
+			position: absolute;
+			border: 1px solid var(--blue);
+			transform: translate(-50%, -50%);
+			z-index: 10;
+			cursor: pointer;
+			box-sizing: border-box;
+
+			&.top-left {
+				top: 0;
+				left: 0;
+			}
+
+			&.top-center {
+				left: 50%;
+			}
+
+			&.top-right {
+				left: 100%;
+			}
+
+			&.center-left {
+				top: 50%;
+				left: 0;
+			}
+
+			&.center-center {
+				top: 50%;
+				left: 50%;
+			}
+
+			&.center-right {
+				top: 50%;
+				left: 100%;
+			}
+
+			&.bottom-left {
+				top: 100%;
+				left: 0;
+			}
+
+			&.bottom-center {
+				top: 100%;
+				left: 50%;
+			}
+
+			&.bottom-right {
+				top: 100%;
+				left: 100%;
+			}
+		}
+
+		.point {
+			border-radius: 0;
+			width: 12px;
+			height: 12px;
+			box-shadow: none;
+			margin: -6px;
+		}
+
+		.position-axis {
+			position: absolute;
+			border-color: var(--blue);
+			border-style: dashed;
+			opacity: 0.6;
+			border-width: 0;
+
+			&.axis-y {
+				height: 100%;
+				border-left-width: 1px;
+				top: 0;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			&.axis-x {
+				width: 100%;
+				border-top-width: 1px;
+				top: 50%;
+				left: 0;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+}

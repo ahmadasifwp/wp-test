@@ -1,0 +1,41 @@
+{
+  "name": "avada",
+  "version": "4.0.0",
+  "description": "Avada, WordPress Theme Framework.",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "grunt": "~0.4",
+    "postcss": "^8.4.21",
+    "postcss-less": "^5.0.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-contrib-concat": "~1",
+    "grunt-contrib-cssmin": "~2",
+    "grunt-contrib-jshint": "~0",
+    "grunt-contrib-less": "2.1.0",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "~1",
+    "grunt-jscs": "~3",
+    "grunt-wp-i18n": "~1",
+    "less-plugin-autoprefix": "~1",
+    "shelljs": "^0.8.4",
+    "stylelint": "^11.1.1",
+    "stylelint-config-wordpress": "^15.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Theme-Fusion/Fusion-Core.git"
+  },
+  "keywords": [
+    "wordpress"
+  ],
+  "author": "ThemeFusion",
+  "bugs": {
+    "url": "https://github.com/Theme-Fusion/Avada/issues"
+  }
+}

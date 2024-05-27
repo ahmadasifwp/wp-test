@@ -1,0 +1,466 @@
+.fusion-builder-option {
+
+	.fusion-builder-option-logics {
+
+		.fusion-builder-add-sortable-child {
+			margin-bottom: 0;
+		}
+
+		ul.fusion-logics {
+			padding: 0;
+			margin-top: 20px;
+			overflow: visible;
+			position: relative;
+			.scrollbar-mixin();
+		}
+
+		.options-grid {
+			clear: both;
+
+			.option-value {
+				display: inline-block !important;
+			}
+
+			.logic-field,
+			.logic-value {
+				width: 100% !important;
+				margin: 0 !important;
+				padding: 0;
+			}
+
+			.logic-value {
+				padding: 0 5px;
+			}
+
+			.logic-description {
+				margin-bottom: 15px;
+				text-align: start;
+				padding: 0 5px;
+				display: block !important;
+			}
+
+			.logic-field {
+				display: flex;
+
+				.logic-field-wrapper,
+				.logic-additionals {
+					flex: 1;
+					padding: 0 5px;
+				}
+			}
+
+			.logic-field,
+			.logic-comparison {
+				margin-right: 5px;
+			}
+
+			.fusion-logic {
+				width: 100%;
+				float: none;
+				display: flex;
+				flex-flow: wrap;
+				align-items: center;
+				background: var(--gray-bg);
+				border: 1px solid var(--border-color-dark);
+				box-sizing: border-box;
+				border-radius: 3px;
+				margin: 0 0 13px 0;
+				padding: 0;
+				position: relative;
+
+				& > div {
+
+					&:first-child {
+						width: 20px;
+					}
+					width: 30px;
+					overflow: hidden;
+					text-align: center;
+				}
+
+				.logic-operator {
+					width: auto;
+					margin: 12px auto 0;
+					display: block;
+
+					span {
+						background: var(--white);
+						border-radius: 4px;
+						text-shadow: none;
+						width: 84px;
+						height: 30px;
+						display: flex;
+						justify-content: space-between;
+						line-height: 30px;
+						border: none;
+						color: var(--gray-light);
+						font-weight: 700;
+						padding: 0;
+						margin: 0 auto;
+						overflow: hidden;
+
+						&:before,
+						&:after {
+							width: 50%;
+							text-align: center;
+						}
+
+						&.and {
+
+							&:before {
+								background: var(--blue);
+								color: var(--white);
+							}
+						}
+
+						&.or {
+
+							&:after {
+								background: var(--blue);
+								color: var(--white);
+							}
+						}
+					}
+				}
+
+				.fusion-sortable-move {
+					font-size: 15px;
+					text-decoration: none;
+					color: var(--gray-light);
+				}
+
+				.logic-field,
+				.logic-value {
+					width: ~"calc( 100% - 85px )";
+					text-align: left;
+
+					input {
+						margin: 0;
+					}
+
+					.fusion-select-wrapper {
+						position: relative;
+
+						select {
+							border: 1px solid var(--border-color);
+							box-shadow: 0 1px 1px rgba(102, 113, 123, 0.08);
+							cursor: pointer;
+							width: 100%;
+							max-width: 100%;
+							font-size: 13px;
+							font-weight: 400;
+							line-height: 40px;
+							color: var(--gray-dark);
+							border-radius: 4px;
+							min-height: 40px;
+							background: var(--white);
+							position: relative;
+							transition: all 0.1s ease;
+							appearance: none;
+							outline: 0;
+
+							.ltr & {
+								padding-left: 12px;
+								padding-right: 22px;
+							}
+
+							.rtl & {
+								padding-left: 22px;
+								padding-right: 12px;
+							}
+						}
+
+						.fusiona-arrow-down {
+							display: block;
+							position: absolute;
+							top: 50%;
+
+							transform: translateY(-50%);
+							pointer-events: none;
+							font-size: 14px;
+							line-height: 1;
+							color: var(--gray-light);
+
+							.ltr & {
+								right: 8px;
+							}
+
+							.rtl & {
+								left: 8px;
+							}
+						}
+					}
+				}
+
+				.fusion-sortable-remove {
+					font-size: 15px;
+					text-decoration: none;
+					color: var(--gray-light);
+					box-shadow: none;
+				}
+
+				.fusion-sortable-operator,
+				.logic-comparison span {
+					border: 1px solid var(--border-color-dark);
+					height: 20px;
+					position: relative;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 0 3px;
+					background: var(--gray-bg);
+					text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+					color: var(--gray-dark);
+					font-size: 11px;
+					border-radius: 3px;
+					box-sizing: content-box;
+					outline: none;
+					cursor: pointer;
+
+					&:before {
+						content: ~"attr(aria-label-and)";
+					}
+
+					&:after {
+						content: ~"attr(aria-label-or)";
+					}
+				}
+
+				.fusion-logic-controller,
+				.fusion-logic-controller-head {
+					width: 100% !important;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					padding: 10px 12px;
+					box-sizing: border-box;
+					position: relative;
+					overflow: visible;
+
+					&:after {
+						left: auto;
+						right: 33px;
+					}
+
+					.logic-comparison {
+						margin: 0;
+
+						span {
+
+							&.active {
+								margin: 0;
+								background: var(--gray-light);
+								border-radius: 4px;
+								width: 32px;
+								height: 24px;
+								text-shadow: none;
+								color: var(--white);
+								font-size: 24px;
+								box-sizing: border-box;
+							}
+						}
+					}
+				}
+
+				.logic-comparison-dropdown {
+					position: relative;
+
+					ul {
+						display: none;
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 100%;
+						background: var(--gray-light);
+						border-radius: 0 0 4px 4px;
+						overflow: hidden;
+						z-index: 10;
+						border-top: 0;
+						margin: -5px 0 0 0;
+						list-style: none;
+						padding: 0;
+
+						li {
+							padding: 0.2em 0;
+							border: none;
+							width: 100%;
+							color: var(--white);
+							font-size: 20px;
+							cursor: pointer;
+							transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+
+							&:hover {
+								background: var(--blue);
+							}
+						}
+					}
+
+					&.open {
+
+						ul {
+							display: block;
+						}
+
+						span {
+
+							&:after {
+								content: "\f343";
+							}
+						}
+					}
+
+					&:before {
+						content: "\f347";
+						font-family: "dashicons";
+						font-size: 12px;
+						position: absolute;
+						top: 50%;
+						transform: translateY(-50%);
+						color: #fff;
+						pointer-events: none;
+
+						.ltr & {
+							right: 8px;
+						}
+
+						.rtl & {
+							left: 8px;
+						}
+					}
+
+					.logic-comparison-selection {
+						height: 32px;
+						background: var(--gray-light);
+						border-radius: 4px;
+						font-size: 14px;
+						color: var(--white);
+
+						box-sizing: border-box;
+						cursor: pointer;
+						line-height: 30px;
+						box-shadow: none;
+						border: none;
+						outline: 0;
+						-webkit-appearance: none;
+
+						.ltr & {
+							padding: 0 22px 0 12px;
+						}
+
+						.rtl & {
+							padding: 0 22px 0 12px;
+						}
+					}
+				}
+
+				&.ui-sortable-placeholder {
+					visibility: visible !important;
+				}
+
+				.fusion-logic-controller-content {
+					width: 100%;
+					display: none;
+					padding: 20px 15px;
+				}
+
+				&.has-or {
+					margin: 0 0 50px 0;
+
+					&:after,
+					&:before {
+						content: "";
+						height: 1px;
+						position: absolute;
+						left: 0;
+						right: 0;
+						bottom: -28px;
+						background: linear-gradient(to right, rgba(30, 87, 153, 0) 0%, rgba(222, 222, 222, 0.98) 51%, rgba(220, 221, 222, 1) 52%, rgba(125, 185, 232, 0) 100%);
+					}
+
+					&:before {
+						width: 28px;
+						height: 28px;
+						background: var(--white);
+						border: 1px solid var(--border-color);
+						border-radius: 100%;
+						right: auto;
+						left: 50%;
+						transform: translateX(-50%);
+						content: attr(aria-label-or);
+						line-height: 28px;
+						text-align: center;
+						z-index: 2;
+						font-size: 12px;
+						font-weight: 600;
+						bottom: -41px;
+					}
+				}
+
+				.fusion-logic-controller-head {
+					justify-content: space-between;
+					background: var(--white);
+					padding: 0;
+					margin: 0;
+					width: calc(100% - -30px) !important;
+					height: 40px;
+
+					h4 {
+						margin: 0;
+						font-size: 14px;
+						flex: 1;
+						cursor: move;
+					}
+
+					.logic-edit,
+					.logic-remove {
+						width: 40px;
+						height: 40px;
+						display: flex;
+						justify-content: center;
+
+						a {
+							width: 100%;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							color: var(--gray-light);
+							transition: all 0.3s ease;
+
+							span {
+								transition: inherit;
+							}
+
+							&:hover {
+
+								span {
+									color: var(--blue);
+								}
+							}
+						}
+					}
+
+					.logic-remove {
+
+						a {
+
+							&:hover {
+
+								span {
+									color: var(--failure);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.no-fields {
+			padding: 10px;
+			background: var(--gray-bg);
+			color: var(--grey-light);
+			font-weight: bold;
+			text-align: center;
+		}
+	}
+}
